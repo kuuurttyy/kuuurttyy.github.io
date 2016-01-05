@@ -1,1 +1,0 @@
-# kuuurttyy.github.io
