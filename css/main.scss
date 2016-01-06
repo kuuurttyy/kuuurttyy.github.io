@@ -5,7 +5,11 @@
 
 
 
-// Our variables
+// Variables
+
+// Bourbon Neat Grid
+$grid-columns: 16;
+
 $base-font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
 $base-font-size:   21px;
 $base-font-weight: 400;
@@ -23,7 +27,7 @@ $grey-color:       #828282;
 $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
-// Width of the content area
+// Breakpoints
 $content-width:    100%;
 
 $on-palm:          600px;
@@ -53,5 +57,6 @@ $on-laptop:        800px;
         "base",
         "layout",
         "typography",
+        "homepage",
         "syntax-highlighting"
 ;

@@ -2,18 +2,27 @@
 layout: default
 ---
 
-<section>
+<section id="splash">
     <div class="section-title">
         <div class="title-container">
             <h1><span>Kurt </span><span>Stubbings</span></h1>
         </div>
     </div>
     <div class="section-body">
-        <div class="body-container">
-<!--
-            <h2>Digital Designer</h2>
-            <h2>Developer</h2>
--->
+        <div class="tagline-container">
+            <h2 class="tagline">Digital Designer</h2>
+            <h2 class="tagline">Developer</h2>
+            <div id="ampersand"></div>
+        </div>
+        <div class="nav-container">
+            <nav>
+                <ul>
+                    <li><a href="">About</a></li>
+                    <li><a href="">Work</a></li>
+                    <li><a href="">Contact</a></li>
+                    <li><a href="">Blog</a></li>
+                </ul>
+            </nav>
         </div>
     </div>
 </section>
@@ -21,20 +30,20 @@ layout: default
 
 <div class="home">
 
-  <h1 class="page-heading">Posts</h1>
+    <h1 class="page-heading">Posts</h1>
 
-  <ul class="post-list">
-    {% for post in site.posts %}
-      <li>
-        <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+    <ul class="post-list">
+        {% for post in site.posts %}
+        <li>
+            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
 
-        <h2>
+            <h2>
           <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
         </h2>
-      </li>
-    {% endfor %}
-  </ul>
+        </li>
+        {% endfor %}
+    </ul>
 
-  <p class="rss-subscribe">subscribe <a href="{{ "/feed.xml" | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
 
 </div>
