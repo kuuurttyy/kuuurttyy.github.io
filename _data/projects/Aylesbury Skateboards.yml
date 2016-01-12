@@ -1,0 +1,21 @@
+#----- HOMEPAGE CONTENT -----#
+
+title: Aylesbury Skateboards
+tagline: Local Skate Shop
+coverImage: www.image.url
+
+#----- PROJECT PAGE CONTENT -----#
+
+titleLine1: Aylesbury
+titleLine2: Skateboards
+description: this is the content for my this section.
+
+images: 
+    - url: http://placehold.it/600x300
+      alt: this is the alt
+      title: first image
+      caption: has caption
+      
+    - url: http://placehold.it/700x400
+      alt: second image
+      title: title second image

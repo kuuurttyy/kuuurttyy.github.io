@@ -19,3 +19,9 @@ github_username:  kuuurttyy
 
 # Build settings
 markdown: kramdown
+
+# jekyll portfolio generator config
+portfolio_dir: "projects"
+related_project_keys: ["category", "technology"]
+related_min_common: 0.7
+

@@ -1,0 +1,27 @@
+---
+layout: default
+---
+
+
+<section>
+    <div class="project-left">
+        <div class="title-container">
+            <h1><span>{{ page.titleLine1 }}</span> <span>{{ page.titleLine2 }}</span></h1>
+        </div>
+        <div class="project-description">
+            {{ page.description }}
+        </div>
+    </div>
+    <!-- close left -->
+    <div class="project-right">
+        {% for image in page.images %}
+        <div class="project-image">
+            <img src="{{ image.url }}" alt="image.alt" title="image.title">
+            {% if image.caption %}
+            <caption>{{ image.caption }}</caption>
+            {% endif %}
+        </div>
+        {% endfor %}
+    </div>
+    <!-- close right -->
+</section>
