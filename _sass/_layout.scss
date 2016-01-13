@@ -5,10 +5,14 @@ body,
     height: 100%;
 }
 
-section {
+.page-content {
     @include outer-container(100%);
-    width: 100vw;
-    height: 100%;
+}
+
+section {
+    @include row();
+//    width: 100vw;
+//    height: 100%;
     position: relative;
 }
 
@@ -21,6 +25,7 @@ section {
     width: 50%;
     height: 100vh;
     position: relative;
+    @include clearfix;
 }
 
 .title-container {
