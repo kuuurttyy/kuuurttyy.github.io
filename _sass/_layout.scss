@@ -7,16 +7,24 @@
 
 .wrapper {}
 
-section {
-    
-}
+section {}
 
 .chapter {
     position: relative;
     z-index: 200;
 }
 
-.section-title {
+.section-title,
+.section-body,
+.project-left,
+.project-right,
+{
+    @include outer-container(50%);
+    margin: 0;
+}
+
+.section-title,
+.project-left {
     position: absolute;
     top: 0;
     left: 0;
@@ -43,60 +51,37 @@ section {
     text-align: center;
 }
 
-.section-body {
+.section-body,
+.project-right {
     position: relative;
     width: 50%;
     left: 50%;
     z-index: 100;
+}
+
+.section-body {
     background-color: $theme-color;
 }
 
+.body-inner {
+    @include span-columns(6 of 8);
+    @include shift(1 of 8);
+    // margin of 1/8 all around
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+}
 
-//html,
-//body,
-//.page-content,
-//.wrapper {
-//    height: 100%;
+// doesnt do anything for some reason
+//.project-left {
+//    padding-bottom: 12.5vh;
+//    
 //}
-//
-//section {
-//    @include outer-container(100%);
-//    width: 100vw;
-//    height: 100%;
-//    position: relative;
-//}
-//
-//.section-title,
-//.section-body,
-//.project-left,
-//.project-right {
-//    @include span-columns(8);
-//    @include omega();
-//    width: 50%;
-//    height: 100vh;
-//    position: relative;
-//}
-//
-//.title-container {
-//    position: relative;
-//    top: 50%;
-//    @include transform(translateY(-50%));
-//}
-//
-//.section-body {
-//    background-color: $theme-color;
-//    padding-top: $spacing-unit*2;
-//    padding-bottom: $spacing-unit*2;
-//    min-height: 100%;
-//}
-//
-//.body-inner,
-//.project-description {
-//    @include span-columns(6 of 8);
-//    @include shift(1 of 8);
-//}
-//
-//
+
+.project-right-inner {
+    margin-top: 12.5vh;
+    margin-bottom: 12.5vh;
+}
+
 ///**
 // * Site header
 // */
