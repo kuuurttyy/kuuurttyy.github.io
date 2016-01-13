@@ -1,7 +1,37 @@
 .project-left {}
-.project-right {}
-.project-description {}
+
+.project-right {
+    padding-top: 12.5vh;
+}
+
+.project-description {
+    position: absolute;
+    top: 75vh;
+}
+
 .project-image {
-    img {}
-    caption {}
+    margin-bottom: 8.33vh;
+    p {
+        @include span-columns(6 of 8);
+        @include shift(1 of 8);
+        text-align: right;
+        font-style: italic;
+        font-size: 1em;
+        margin-bottom: 0;
+    }
+}
+
+.project-image-container {
+    &::after {
+        content: "";
+        display: block;
+        height: 1em;
+        width: 97%;
+        float: right;
+        background-color: $theme-color;
+    }
+    img {
+        display: block;
+        width: 100%;
+    }
 }
