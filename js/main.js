@@ -2,8 +2,9 @@
 
 
 (function () {
-var toggleButton = $(".nav-toggle"),
-    overlay = $("div.overlay-nav");
+    var toggleButton = $(".nav-toggle"),
+        overlay = $("div.overlay-nav"),
+        navLink = $(".nav-link");
 
     //    function toggleOverlay() {
     //        if (overlay.hasClass("open")) {
@@ -17,6 +18,11 @@ var toggleButton = $(".nav-toggle"),
     //        }
     //            
     //    };
+
+    navLink.click(function () {
+        overlay.toggleClass("open");
+        toggleButton.toggleClass('active');
+    });
 
     toggleButton.click(function () {
         overlay.toggleClass("open");

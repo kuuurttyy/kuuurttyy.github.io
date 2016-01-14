@@ -13,20 +13,29 @@ layout: default
     <div class="section-body">
         <div class="title-container" data-viewport-height="100">
             <div class="title-inner">
-               <div  class="tagline">
+                <div class="tagline">
                     <h2>Digital Designer</h2>
                     <h2>Developer</h2>
-                    <div id="ampersand"></div>
+                    <div id="ampersand">
+                        <svg xmlns="http://www.w3.org/2000/svg" width="266" height="288" viewBox="0 0 266 288">
+                            <text id="amp-2" data-name="&amp; Hover" class="amp-svg" transform="translate(143.956 265.438) scale(5.092)">
+                                <tspan x="0">&amp;</tspan>
+                            </text>
+                            <text id="amp-1" data-name="&amp;" class="amp-svg" transform="translate(121.625 256.921) scale(5.092)">
+                                <tspan x="0">&amp;</tspan>
+                            </text>
+                        </svg>
+                    </div>
                 </div>
             </div>
         </div>
         <div class="nav-container">
             <nav>
                 <ul>
-                    <li><a href="">About</a></li>
-                    <li><a href="">Work</a></li>
-                    <li><a href="">Contact</a></li>
-                    <li><a href="">Blog</a></li>
+                    <li><a href="#about">About</a></li>
+                    <li><a href="#work">Work</a></li>
+                    <li><a href="#contact">Contact</a></li>
+                    <li><a href="/blog">Blog</a></li>
                 </ul>
             </nav>
         </div>
@@ -51,6 +60,33 @@ layout: default
             <p>Nearly all joined in singing this hymn, which swelled high above the howling of the storm. A brief pause ensued; the preacher slowly turned over the leaves of the Bible, and at last, folding his hand down upon the proper page, said: "Beloved shipmates, clinch the last verse of the first chapter of Jonah&mdash;'And God had prepared a great fish to swallow up Jonah.'"</p>
             <p>Nearly all joined in singing this hymn, which swelled high above the howling of the storm. A brief pause ensued; the preacher slowly turned over the leaves of the Bible, and at last, folding his hand down upon the proper page, said: "Beloved shipmates, clinch the last verse of the first chapter of Jonah&mdash;'And God had prepared a great fish to swallow up Jonah.'"</p>
             <p>Nearly all joined in singing this hymn, which swelled high above the howling of the storm. A brief pause ensued; the preacher slowly turned over the leaves of the Bible, and at last, folding his hand down upon the proper page, said: "Beloved shipmates, clinch the last verse of the first chapter of Jonah&mdash;'And God had prepared a great fish to swallow up Jonah.'"</p>
+        </div>
+    </div>
+</section>
+
+<section id="work" class="chapter" data-viewport-min-height="100">
+    <div class="section-title">
+        <div class="title-container" data-viewport-height="100">
+            <div class="title-inner">
+                <h1><span>Work</span></h1>
+            </div>
+        </div>
+    </div>
+    <div class="section-body" data-viewport-min-height="100">
+        <div class="work-inner">
+            {% assign projects = site.data.projects | get_projects_from_files | sort:'date' %} {% for project in projects reversed %}
+            <!-- work-project -->
+            <div class="work-project">
+                <a href="/{{ project.dir }}">
+                    <img src="{{ project.coverImage }}" alt="{{ project.title }}" title="{{ project.title }}">
+                    <div class="work-project-title">
+                        <h2>{{ project.title }}</h2>
+                        <h3>{{ project.tagline }}</h3>
+                    </div>
+                </a>
+            </div>
+            <!-- end work-project -->
+            {% endfor %}
         </div>
     </div>
 </section>

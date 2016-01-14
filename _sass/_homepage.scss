@@ -1,12 +1,33 @@
 .tagline {
     display: inline-block;
     text-align: left;
+    position: relative;
     h2 {
         margin: 0;
     }
 }
 
-.ampersand {}
+#ampersand {
+    position: absolute;
+    top: -80px;
+    right: -155px;
+    z-index: -1;
+    
+}
+
+.amp-svg {
+    font-family: $base-font-family;
+    font-size: 72px;
+    text-anchor: middle;
+}
+
+#amp-1 {
+    fill: white
+}
+
+#amp-2 {
+    fill: $accent-color
+}
 
 #splash {
     .nav-container {

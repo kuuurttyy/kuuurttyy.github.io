@@ -20,6 +20,10 @@ github_username:  kuuurttyy
 # Build settings
 markdown: kramdown
 
+# sass settings 
+sass:
+    style: compressed
+
 # jekyll portfolio generator config
 portfolio_dir: "projects"
 related_project_keys: ["category", "technology"]

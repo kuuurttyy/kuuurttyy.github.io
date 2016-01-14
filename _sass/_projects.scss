@@ -3,6 +3,9 @@
     //    top: 75vh;
     @include span-columns(6 of 8);
     @include shift(1 of 8);
+    // bring up into view before scrolling
+    position: relative;
+    top: -20vh;
 }
 
 .project-image {
