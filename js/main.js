@@ -1,24 +1,81 @@
-//// init scrollMagic controller
-//var controller = new ScrollMagic.Controller();
-//
+// nav overlay
+
+
+(function () {
+var toggleButton = $(".nav-toggle"),
+    overlay = $("div.overlay-nav");
+
+    //    function toggleOverlay() {
+    //        if (overlay.hasClass("open")) {
+    //            overlay.removeClass("open")
+    //                .addClass("close");
+    //        } else if (overlay.hasClass("close")) {
+    //                overlay.addClass("open");
+    //            }
+    //        else {
+    //            jQuery.noop();
+    //        }
+    //            
+    //    };
+
+    toggleButton.click(function () {
+        overlay.toggleClass("open");
+        toggleButton.toggleClass('active');
+        return false;
+    });
+
+})();
+
 //$(document).ready(function () {
+//    var hamburger = $('#hamburger-icon');
+//    hamburger.click(function () {
+//        hamburger.toggleClass('active');
+//        return false;
+//    });
+//});
 //
-//    var aboutSection = new ScrollMagic.Scene({
-//            triggerHook: "onLeave",
-//            triggerElement: "#about",
-//            duration: "100%"
-//        })
-//        .setPin("#about .section-title")
-//        .addTo(controller);
+//(function () {
+//    var triggerBttn = document.getElementById('trigger-overlay'),
+//        overlay = document.querySelector('div.overlay-nav'),
+//        closeBttn = overlay.querySelector('button.overlay-close');
+//    //		transEndEventNames = {
+//    //			'WebkitTransition': 'webkitTransitionEnd',
+//    //			'MozTransition': 'transitionend',
+//    //			'OTransition': 'oTransitionEnd',
+//    //			'msTransition': 'MSTransitionEnd',
+//    //			'transition': 'transitionend'
+//    //		},
+//    //		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
+//    //		support = { transitions : Modernizr.csstransitions };
 //
+//    function toggleOverlay() {
+//        if (classie.has(overlay, 'open')) {
+//            classie.remove(overlay, 'open');
+//            classie.add(overlay, 'close');
+//            var onEndTransitionFn = function (ev) {
+//                //				if( support.transitions ) {
+//                //					if( ev.propertyName !== 'visibility' ) return;
+//                //					this.removeEventListener( transEndEventName, onEndTransitionFn );
+//                //				}
+//                classie.remove(overlay, 'close');
+//            };
+//            //			if( support.transitions ) {
+//            //				overlay.addEventListener( transEndEventName, onEndTransitionFn );
+//            //			}
+//            //			else {
+//            //				onEndTransitionFn();
+//            //			}
+//        } else if (!classie.has(overlay, 'close')) {
+//            classie.add(overlay, 'open');
+//        }
+//    }
 //
-//
-//
-//
-//
-//}); //close document.ready
+//    triggerBttn.addEventListener('click', toggleOverlay);
+//    closeBttn.addEventListener('click', toggleOverlay);
+//})();
 
 
+// script for the sections to work
 
 ! function (t) {
     t.section = function (e, n) {
