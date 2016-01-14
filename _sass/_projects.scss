@@ -1,16 +1,12 @@
-.project-left {}
-
-.project-right {
-    padding-top: 12.5vh;
-}
-
 .project-description {
-    position: absolute;
-    top: 75vh;
+    //    position: absolute;
+    //    top: 75vh;
+    @include span-columns(6 of 8);
+    @include shift(1 of 8);
 }
 
 .project-image {
-    margin-bottom: 8.33vh;
+    margin-bottom: 10vh;
     p {
         @include span-columns(6 of 8);
         @include shift(1 of 8);
@@ -22,10 +18,12 @@
 }
 
 .project-image-container {
+    
     &::after {
         content: "";
         display: block;
-        height: 1em;
+//        height: 1em;
+        height: 3vh;
         width: 97%;
         float: right;
         background-color: $theme-color;

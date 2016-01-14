@@ -8,7 +8,7 @@
 // Variables
 
 // Bourbon Neat Grid
-$grid-columns: 16;
+$grid-columns: 8;
 
 // Typography
 $base-font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -60,5 +60,6 @@ $on-laptop:        800px;
         "typography",
         "homepage",
         "projects",
+        "navigation",
         "syntax-highlighting"
 ;

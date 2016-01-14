@@ -29,6 +29,7 @@ h1 {
     width: 100%;
     span {
         position: relative;
+        // offset background block
         &::before {
             content: "";
             display: inline-block;
