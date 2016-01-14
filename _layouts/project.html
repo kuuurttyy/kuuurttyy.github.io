@@ -4,16 +4,19 @@ layout: default
 
 
 <section>
-        <div class="project-left">
-            <div class="title-container">
-                <h1><span>{{ page.titleLine1 }}</span> <span>{{ page.titleLine2 }}</span></h1>
-            </div>
-            <div class="project-description">
-                {{ page.description | markdownify }}
-            </div>
+    <div class="project-left" data-viewport-min-height="100">
+        <div class="title-container" data-viewport-height="100">
+            <div class="title-inner">
+                <h1><span>{{ page.titleLine1 }}</span> <span>{{ page.titleLine2 }}</span></h1> </div>
         </div>
-        <!-- close left -->
-        <div class="project-right">
+
+        <div class="project-description">
+            {{ page.description | markdownify }}
+        </div>
+    </div>
+    <!-- close left -->
+    <div class="project-right">
+        <div class="project-right-inner">
             {% for image in page.images %}
             <div class="project-image">
                 <div class="project-image-container">
@@ -25,5 +28,6 @@ layout: default
             </div>
             {% endfor %}
         </div>
+    </div>
     <!-- close right -->
 </section>
