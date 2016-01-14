@@ -8,7 +8,7 @@
 // Variables
 
 // Bourbon Neat Grid
-$grid-columns: 8;
+$grid-columns:     8;
 
 // Typography
 $base-font-family: "futura-pt", "Helvetica Neue", Helvetica, Arial, sans-serif;
@@ -29,10 +29,12 @@ $grey-color-light: lighten($grey-color, 40%);
 $grey-color-dark:  darken($grey-color, 25%);
 
 // Breakpoints
-$content-width:    100%;
+//$content-width:    100%;
+//
+//$on-palm:          600px;
+//$on-laptop:        800px;
 
-$on-palm:          600px;
-$on-laptop:        800px;
+$mobile: new-breakpoint(max-width rem(991));
 
 
 
