@@ -74,9 +74,13 @@ layout: default
     </div>
     <div class="section-body" data-viewport-min-height="100">
         <div class="work-inner">
-            {% assign projects = site.data.projects | get_projects_from_files | sort:'date' %} {% for project in projects reversed %}
+           
+           <!-- show projects by most recent -->
+           
+            {% assign projects = site.data.projects | get_projects_from_files | sort:'date' %}
+            {% for project in projects reversed %}
             <!-- work-project -->
-            <div class="work-project">
+            <div class="work-project" id="{{ project.title | slugify }}">
                 <a href="/{{ project.dir }}">
                     <img src="{{ project.coverImage }}" alt="{{ project.title }}" title="{{ project.title }}">
                     <div class="work-project-title">
