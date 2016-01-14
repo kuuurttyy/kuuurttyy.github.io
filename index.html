@@ -2,7 +2,7 @@
 layout: default
 ---
 
-<section id="splash" data-viewport-height="100">
+<section id="splash" data-viewport-min-height="100">
     <div class="section-title">
         <div class="title-container" data-viewport-height="100">
             <div class="title-inner">
@@ -74,23 +74,23 @@ layout: default
     </div>
     <div class="section-body">
         <div class="work-inner">
-           
-           <!-- show projects by most recent -->
-           
-            {% assign projects = site.data.projects | get_projects_from_files | sort:'date' %}
-            {% for project in projects reversed %}
+
+            <!-- show projects by most recent -->
+
+            {% assign projects = site.data.projects | get_projects_from_files | sort:'date' %} {% for project in projects reversed %}
             <!-- work-project -->
             <div class="work-project" id="{{ project.title | slugify }}" data-viewport-min-height="100">
                 <a href="/{{ project.dir }}">
-                   <div  class="work-cover-image" >
-                        <img src="{{ project.coverImage }}" alt="{{ project.title }}" title="{{ project.title }}">
+                    <div class="work-cover-image" style="background-image: url({{ project.coverImage }})">
+                        <!--                        <img src="{{ project.coverImage }}" alt="{{ project.title }}" title="{{ project.title }}">-->
                     </div>
                     <div class="title-container work-project-title" data-viewport-height="100">
-                       <div class="title-inner">
+                        <div class="title-inner">
                             <h2>{{ project.title }}</h2>
                             <h4>{{ project.tagline }}</h4>
                         </div>
                     </div>
+
                 </a>
             </div>
             <!-- end work-project -->

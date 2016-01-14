@@ -30,6 +30,7 @@ h1 {
     span {
         position: relative;
         // offset background block
+        z-index: 20;
         &::before {
             content: "";
             display: inline-block;
@@ -88,7 +89,7 @@ a {
     color: $text-color;
     text-decoration: none;
     &:visited {
-    color: $text-color;
+        color: $text-color;
     }
     &:hover {
         color: $text-color;
