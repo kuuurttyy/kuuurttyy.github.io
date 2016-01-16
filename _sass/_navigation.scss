@@ -10,7 +10,7 @@ $translateX: 0;
     position: fixed;
     z-index: 2000;
     display: block;
-    right: 2vw;
+    left: 2vw;
     top: 0;
 }
 
@@ -95,8 +95,6 @@ $translateX: 0;
         top: 50%;
         height: 60%;
         //        font-size: 54px;
-        font-size: 5.5625rem;
-        line-height: 5.625rem;
         @include transform(translateY(-50%));
         @include perspective(1200px);
     }
@@ -113,6 +111,10 @@ $translateX: 0;
             a {
                 display: block;
                 color: #fff;
+                text-transform: uppercase;
+                font-size: 5.5625rem;
+                line-height: 5.625rem;
+                letter-spacing: 0.03em;
                 -webkit-transition: color 0.2s;
                 transition: color 0.2s;
                 &:hover,
@@ -131,15 +133,18 @@ $translateX: 0;
     }
 }
 
-@media screen and (max-height: 30.5em) {
+@media screen and (max-height: 700px) {
     .overlay-nav {
         nav {
             height: 70%;
-            font-size: 34px;
         }
         ul {
             li {
                 min-height: 34px;
+                a {
+                    font-size: 3em;
+                    line-height: 1em;
+                }
             }
         }
     }

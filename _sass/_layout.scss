@@ -83,6 +83,10 @@ section {}
     // margin of 1/8 all around
     margin-top: 12.5vh;
     margin-bottom: 12.5vh;
+    @include media($full-width) {
+        margin-top: 5vh;
+        margin-bottom: 5vh;
+    }
 }
 
 // doesnt do anything for some reason
