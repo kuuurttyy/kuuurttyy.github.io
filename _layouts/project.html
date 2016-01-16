@@ -7,7 +7,14 @@ layout: default
     <div class="project-left" data-viewport-min-height="100">
         <div class="title-container" data-viewport-height="100">
             <div class="title-inner">
-                <h1><span>{{ page.titleLine1 }}</span> <span>{{ page.titleLine2 }}</span></h1> </div>
+                <h1>
+                    <span>{{ page.titleLine1 }}</span>
+                    {% if page.titleLine2 %}
+                       <br>
+                        <span>{{ page.titleLine2 }}</span>
+                    {% endif %}
+                </h1>
+            </div>
         </div>
 
         <div class="project-description">
