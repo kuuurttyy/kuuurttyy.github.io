@@ -1,6 +1,0 @@
-@import "neat/neat-helpers"; // or "neat-helpers" when in Rails
-
-
-$grid-columns:     8;
-$width-1680:       new-breakpoint(max-width 1680px 8);
-$full-width:       new-breakpoint(max-width 991px 8);

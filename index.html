@@ -1,7 +1,133 @@
----
-layout: homepage
----
-<!-- Layout doesnt include footer -->
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Kurt Stubbings</title>
+    <meta name="description" content="Write an awesome description for your new site here. You can edit this line in _config.yml. It will appear in your document head meta (for Google search results) and in your feed.xml site description.
+">
+
+    <script>
+        (function (d) {
+            var config = {
+                    kitId: 'evo2cwy',
+                    scriptTimeout: 3000,
+                    async: true
+                },
+                h = d.documentElement,
+                t = setTimeout(function () {
+                    h.className = h.className.replace(/\bwf-loading\b/g, "") + " wf-inactive";
+                }, config.scriptTimeout),
+                tk = d.createElement("script"),
+                f = false,
+                s = d.getElementsByTagName("script")[0],
+                a;
+            h.className += " wf-loading";
+            tk.src = 'https://use.typekit.net/' + config.kitId + '.js';
+            tk.async = true;
+            tk.onload = tk.onreadystatechange = function () {
+                a = this.readyState;
+                if (f || a && a != "complete" && a != "loaded") return;
+                f = true;
+                clearTimeout(t);
+                try {
+                    Typekit.load(config)
+                } catch (e) {}
+            };
+            s.parentNode.insertBefore(tk, s)
+        })(document);
+    </script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+    <link rel="stylesheet" href=" /css/main.css ">
+    <link rel="canonical" href="http://kurtstubbings.com/">
+    <link rel="alternate" type="application/rss+xml" title="Kurt Stubbings" href="http://kurtstubbings.com /feed.xml ">
+
+
+</head>
+
+  <body>
+
+    <!--
+<header class="site-header">
+
+  <div class="wrapper">
+
+    <a class="site-title" href="/">Kurt Stubbings</a>
+
+    <nav class="site-nav">
+      <a href="#" class="menu-icon">
+        <svg viewBox="0 0 18 15">
+          <path fill="#424242" d="M18,1.484c0,0.82-0.665,1.484-1.484,1.484H1.484C0.665,2.969,0,2.304,0,1.484l0,0C0,0.665,0.665,0,1.484,0 h15.031C17.335,0,18,0.665,18,1.484L18,1.484z"/>
+          <path fill="#424242" d="M18,7.516C18,8.335,17.335,9,16.516,9H1.484C0.665,9,0,8.335,0,7.516l0,0c0-0.82,0.665-1.484,1.484-1.484 h15.031C17.335,6.031,18,6.696,18,7.516L18,7.516z"/>
+          <path fill="#424242" d="M18,13.516C18,14.335,17.335,15,16.516,15H1.484C0.665,15,0,14.335,0,13.516l0,0 c0-0.82,0.665-1.484,1.484-1.484h15.031C17.335,12.031,18,12.696,18,13.516L18,13.516z"/>
+        </svg>
+      </a>
+
+      <div class="trigger">
+        
+          
+          <a class="page-link" href="/about/">About</a>
+          
+        
+          
+        
+          
+        
+          
+        
+          
+        
+          
+          <a class="page-link" href="/projects/aylesbury-skateboards/">Aylesbury Skateboards</a>
+          
+        
+          
+          <a class="page-link" href="/projects/buybits/">BuyBits</a>
+          
+        
+      </div>
+    </nav>
+
+  </div>
+
+</header>
+-->
+
+
+<div class="nav-toggle-container">
+    <a class="nav-toggle" href="#" title="Menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+    </a>
+</div>
+
+    <div class="page-content" id="main-content">
+      <div class="wrapper" id="wrapper">
+        <!-- Layout doesnt include footer -->
 
 <section id="splash" data-viewport-min-height="100">
     <div class="section-title">
@@ -82,22 +208,37 @@ layout: homepage
 
             <!-- show projects by most recent -->
 
-            {% assign projects = site.data.projects | get_projects_from_files %} {% for project in projects reversed %}
+             
             <!-- work-project -->
-            <div class="work-project" id="{{ project.title | slugify }}" data-viewport-min-height="100">
-                <a href="/{{ project.dir }}">
-                    <div class="work-cover-image" style="background-image: url({{ project.coverImage }})">
+            <div class="work-project" id="buybits" data-viewport-min-height="100">
+                <a href="/projects/buybits">
+                    <div class="work-cover-image" style="background-image: url(https://images.unsplash.com/photo-1437376576540-236661ddb41f?crop=entropy&fit=crop&fm=jpg&h=975&ixjsv=2.1.0&ixlib=rb-0.3.5&q=80&w=1925)">
                     </div>
                     <div class="title-container work-project-title" data-viewport-height="100">
                         <div class="title-inner">
-                            <h2>{{ project.title }}</h2>
-                            <h4>{{ project.tagline }}</h4>
+                            <h2>BuyBits</h2>
+                            <h4>Tagline</h4>
                         </div>
                     </div>
                 </a>
             </div>
             <!-- end work-project -->
-            {% endfor %}
+            
+            <!-- work-project -->
+            <div class="work-project" id="aylesbury-skateboards" data-viewport-min-height="100">
+                <a href="/projects/aylesbury-skateboards">
+                    <div class="work-cover-image" style="background-image: url(https://images.unsplash.com/photo-1430933964450-0aefb85717c8?ixlib=rb-0.3.5&q=80&fm=jpg&crop=entropy&w=1080&fit=max&s=c859f1c36273cc589ec0ade5197e9120)">
+                    </div>
+                    <div class="title-container work-project-title" data-viewport-height="100">
+                        <div class="title-inner">
+                            <h2>Aylesbury Skateboards</h2>
+                            <h4>Local Skate Shop</h4>
+                        </div>
+                    </div>
+                </a>
+            </div>
+            <!-- end work-project -->
+            
         </div>
     </div>
 </section>
@@ -127,17 +268,38 @@ layout: homepage
     <h1 class="page-heading">Posts</h1>
 
     <ul class="post-list">
-        {% for post in site.posts %}
+        
         <li>
-            <span class="post-meta">{{ post.date | date: "%b %-d, %Y" }}</span>
+            <span class="post-meta">Jan 5, 2016</span>
 
             <h2>
-          <a class="post-link" href="{{ post.url | prepend: site.baseurl }}">{{ post.title }}</a>
+          <a class="post-link" href="/jekyll/update/2016/01/05/welcome-to-jekyll.html">Welcome to Jekyll!</a>
         </h2>
         </li>
-        {% endfor %}
+        
     </ul>
 
-    <p class="rss-subscribe">subscribe <a href="{{ " /feed.xml " | prepend: site.baseurl }}">via RSS</a></p>
+    <p class="rss-subscribe">subscribe <a href=" /feed.xml ">via RSS</a></p>
 
 </div>-->
+      </div>
+    </div>
+    
+    <div class="overlay-nav">
+    <nav>
+        <ul>
+            <li class="nav-link"><a href="/">Home</a></li>
+            <li class="nav-link"><a href="/#about">About</a></li>
+            <li class="nav-link"><a href="/#work">Work</a></li>
+            <li class="nav-link"><a href="/#contact">Contact</a></li>
+            <li class="nav-link"><a href="#">Blog</a></li>
+        </ul>
+    </nav>
+</div>
+    
+    <script type="text/javascript" src="//cdnjs.cloudflare.com/ajax/libs/ScrollMagic/2.0.5/ScrollMagic.min.js"></script>
+    <script type="text/javascript" src="/js/main.js"></script>   
+
+  </body>
+
+</html>
