@@ -21,12 +21,12 @@ The name of the file ***must*** be the same as the title, capitals and spaces an
 	Double space as usual for paragraphs.
 		
 	images:
-		-url: (link to image)
-		alt: (alt, obviously)
-		title: (title for image)
-	caption: (optional, only shows if used)
+		- url: (link to image)
+		  alt: (alt, obviously)
+		  title: (title for image)
+	      caption: (optional, only shows if used)
+	
+	videos:
+		- url: (link to video embed url)
+		  caption: (optional caption)
 
-	(showing how the second image and so on will be added.)
-	-url:
-		alt: 
-		title: 
