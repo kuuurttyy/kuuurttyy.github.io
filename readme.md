@@ -23,7 +23,6 @@ The name of the file ***must*** be the same as the title, capitals and spaces an
 	images:
 		- url: (link to image)
 		  alt: (alt, obviously)
-		  title: (title for image)
 	      caption: (optional, only shows if used)
 	
 	videos:
