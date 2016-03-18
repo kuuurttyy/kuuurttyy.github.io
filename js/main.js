@@ -5,80 +5,32 @@
     var toggleButton = $(".nav-toggle"),
         overlay = $("div.overlay-nav"),
         navLink = $(".nav-link");
-
-    //    function toggleOverlay() {
-    //        if (overlay.hasClass("open")) {
-    //            overlay.removeClass("open")
-    //                .addClass("close");
-    //        } else if (overlay.hasClass("close")) {
-    //                overlay.addClass("open");
-    //            }
-    //        else {
-    //            jQuery.noop();
-    //        }
-    //            
-    //    };
-
-    navLink.click(function () {
+        hexagon = $(".hexagon");
+    
+    function toggleNav() {
         overlay.toggleClass("open");
         toggleButton.toggleClass('active');
+        hexagon.toggleClass('active');
+    }
+
+    navLink.click(function () {
+        toggleNav();
     });
 
     toggleButton.click(function () {
-        overlay.toggleClass("open");
-        toggleButton.toggleClass('active');
+        toggleNav();
         return false;
     });
+    
+        toggleButton.hover(function() {
+        hexagon.addClass("hexagon-rotate");
+    }, function() {
+        hexagon.removeClass("hexagon-rotate");
+    })
+    
 
 })();
 
-//$(document).ready(function () {
-//    var hamburger = $('#hamburger-icon');
-//    hamburger.click(function () {
-//        hamburger.toggleClass('active');
-//        return false;
-//    });
-//});
-//
-//(function () {
-//    var triggerBttn = document.getElementById('trigger-overlay'),
-//        overlay = document.querySelector('div.overlay-nav'),
-//        closeBttn = overlay.querySelector('button.overlay-close');
-//    //		transEndEventNames = {
-//    //			'WebkitTransition': 'webkitTransitionEnd',
-//    //			'MozTransition': 'transitionend',
-//    //			'OTransition': 'oTransitionEnd',
-//    //			'msTransition': 'MSTransitionEnd',
-//    //			'transition': 'transitionend'
-//    //		},
-//    //		transEndEventName = transEndEventNames[ Modernizr.prefixed( 'transition' ) ],
-//    //		support = { transitions : Modernizr.csstransitions };
-//
-//    function toggleOverlay() {
-//        if (classie.has(overlay, 'open')) {
-//            classie.remove(overlay, 'open');
-//            classie.add(overlay, 'close');
-//            var onEndTransitionFn = function (ev) {
-//                //				if( support.transitions ) {
-//                //					if( ev.propertyName !== 'visibility' ) return;
-//                //					this.removeEventListener( transEndEventName, onEndTransitionFn );
-//                //				}
-//                classie.remove(overlay, 'close');
-//            };
-//            //			if( support.transitions ) {
-//            //				overlay.addEventListener( transEndEventName, onEndTransitionFn );
-//            //			}
-//            //			else {
-//            //				onEndTransitionFn();
-//            //			}
-//        } else if (!classie.has(overlay, 'close')) {
-//            classie.add(overlay, 'open');
-//        }
-//    }
-//
-//    triggerBttn.addEventListener('click', toggleOverlay);
-//    closeBttn.addEventListener('click', toggleOverlay);
-//})();
 
 
 // script for the sections to work
@@ -129,6 +81,7 @@ function Fullpage() {}
 function Chapter() {}
 
 function Main() {}
+
 ViewportUnits.prototype = {
     constructor: ViewportUnits,
     initListener: function () {
@@ -173,20 +126,9 @@ ViewportUnits.prototype = {
 }, Main.prototype = {
     constructor: Main,
     initPlugins: function () {
-        (new ViewportUnits).init(), (new Chapter).init(), $('a[href^="#"]').on("click", this.onAnchorClicked)
+        (new ViewportUnits).init(), (new Chapter).init()
     },
-    onAnchorClicked: function () {
-        var e = $(this).attr("href").substr(1);
-        if ("" != e) {
-            var t = $("[data-id=" + e + "]");
-            if (t.length) {
-                var o = 800;
-                return $("html,body").animate({
-                    scrollTop: t.offset().top
-                }, o, "easeInOutQuart"), !1
-            }
-        }
-    },
+
     init: function () {
         Main.initPlugins()
     }
