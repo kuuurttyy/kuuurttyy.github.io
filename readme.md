@@ -1,5 +1,9 @@
 # kuuurttyy.github.io
 
+Personal portfolio site built using Jekyll.
+
+Uses wow.js and animate.css to add some lovely animations to things but this means classes have to be added in the markdown. Slightly annoying but its the only solution I have at the moment
+
 ## Projects
 Portfolio projects live under /_data/projects/ where they are .yml files
 
