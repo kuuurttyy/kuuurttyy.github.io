@@ -57,16 +57,16 @@
         <div class="title-container" data-viewport-height="100">
             <div class="title-inner">
                 <h1>
-                    <span>Portfolio</span>
+                    <span class="wow fadeIn" data-wow-delay="0.2s">Portfolio</span>
                     
                        <br>
-                        <span>Websites</span>
+                        <span class="wow fadeIn" data-wow-delay="0.45s">Websites</span>
                     
                 </h1>
             </div>
         </div>
 
-        <div class="project-description">
+        <div class="project-description wow fadeInUp" data-wow-delay="0.65s">
             <p>Over the past few years at University my portfolio website has been through numerous designs as I like to keep it up to date with my current design interest and development skills. I use my portfolio site as an excuse to learn new skills and technologies.</p>
 
 <p>My latest redesign came from a desire to learn to use <a href="http://jekyllrb.com" title="Jekyll" target="_blank">Jekyll</a> as in the past I had gotten tired from having to copy and paste the same code across pages on old portfolio sites. The design itself is inspired by various print publications with a focus on large type and bold colours. I also wanted to attempt moving away from the usual fixed width container and work around the full width of the screen.</p>
@@ -82,7 +82,7 @@
     <div class="project-right">
         <div class="project-right-inner">
             
-            <div class="project-image">
+            <div class="project-image wow fadeInUp" data-wow-delay="0.45s">
                 <div class="project-image-container">
                     <a href="/assets/projects/portfolio-websites/portfolio-1.jpg" title="View Full Size"><img src="/assets/projects/portfolio-websites/portfolio-1.jpg" alt="Latest portfolio Splash page" title="Latest portfolio Splash page"></a>
                 </div>
@@ -136,6 +136,15 @@
 </div>
     
     <script type="text/javascript" src="/js/main.js"></script>   
+    <script type="text/javascript" src="/js/wow.min.js"></script> 
+    
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow'
+        });
+        wow.init(); 
+    </script>
+        
 
   </body>
 

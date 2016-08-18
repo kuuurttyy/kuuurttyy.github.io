@@ -57,16 +57,16 @@
         <div class="title-container" data-viewport-height="100">
             <div class="title-inner">
                 <h1>
-                    <span>Magna</span>
+                    <span class="wow fadeIn" data-wow-delay="0.2s">Magna</span>
                     
                        <br>
-                        <span>Carta</span>
+                        <span class="wow fadeIn" data-wow-delay="0.45s">Carta</span>
                     
                 </h1>
             </div>
         </div>
 
-        <div class="project-description">
+        <div class="project-description wow fadeInUp" data-wow-delay="0.65s">
             <p>For a University project we were set with a live brief in collaboration with <a href="http://www.salisburycathedral.org.uk" title="Salisbury Cathedral" target="_blank">Salisbury Cathedral</a> and <a href="http://www.redballoon.co.uk" title="RedBalloon" target="_blank">RedBalloon</a> to, in small groups, create an iOS app for the cathedral’s 800th Anniversary Magna Carta exhibition. The best apps created by the groups were to be selected and used by Salisbury Cathedral.</p>
 
 <p>For the project we had to come up with a unique app idea centered around the Magna Carta. As the document is written in latin we thought it would be good to be able to get a translation into English to know what is actually written. We also noticed that the document is a continuous block of text and there is no clear what to see where one clause ends and the next begins. We combined these two ides in our app.</p>
@@ -90,7 +90,7 @@
     <div class="project-right">
         <div class="project-right-inner">
             
-            <div class="project-image">
+            <div class="project-image wow fadeInUp" data-wow-delay="0.45s">
                 <div class="project-image-container">
                     <a href="/assets/projects/magna-carta/magna-carta-icon.jpg" title="View Full Size"><img src="/assets/projects/magna-carta/magna-carta-icon.jpg" alt="Magna Carta App Icon" title="Magna Carta App Icon"></a>
                 </div>
@@ -98,7 +98,7 @@
  
             </div>
             
-            <div class="project-image">
+            <div class="project-image wow fadeInUp" data-wow-delay="0.45s">
                 <div class="project-image-container">
                     <a href="/assets/projects/magna-carta/magna-carta-designs.jpg" title="View Full Size"><img src="/assets/projects/magna-carta/magna-carta-designs.jpg" alt="Magna Carta App Designs" title="Magna Carta App Designs"></a>
                 </div>
@@ -161,6 +161,15 @@
 </div>
     
     <script type="text/javascript" src="/js/main.js"></script>   
+    <script type="text/javascript" src="/js/wow.min.js"></script> 
+    
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow'
+        });
+        wow.init(); 
+    </script>
+        
 
   </body>
 

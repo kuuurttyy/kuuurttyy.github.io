@@ -57,16 +57,16 @@
         <div class="title-container" data-viewport-height="100">
             <div class="title-inner">
                 <h1>
-                    <span>Kinetic</span>
+                    <span class="wow fadeIn" data-wow-delay="0.2s">Kinetic</span>
                     
                        <br>
-                        <span>Typography</span>
+                        <span class="wow fadeIn" data-wow-delay="0.45s">Typography</span>
                     
                 </h1>
             </div>
         </div>
 
-        <div class="project-description">
+        <div class="project-description wow fadeInUp" data-wow-delay="0.65s">
             <p>As part of a University project we were asked to create a kinetic typography videos based on the audio from movie and game clips. This was an introduction to Adobe After Effects and was a great project to get to grips with some of the things AE is capable of.</p>
 
 <p>The videos use camera movements and 3D rotations of the letters to get the best and most dynamic movement possible.</p>
@@ -158,6 +158,15 @@
 </div>
     
     <script type="text/javascript" src="/js/main.js"></script>   
+    <script type="text/javascript" src="/js/wow.min.js"></script> 
+    
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow'
+        });
+        wow.init(); 
+    </script>
+        
 
   </body>
 
