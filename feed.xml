@@ -6,13 +6,17 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Wed, 08 Feb 2017 13:22:12 +0000</pubDate>
-    <lastBuildDate>Wed, 08 Feb 2017 13:22:12 +0000</lastBuildDate>
-    <generator>Jekyll v3.1.6</generator>
+    <pubDate>Fri, 10 Feb 2017 11:30:02 +0000</pubDate>
+    <lastBuildDate>Fri, 10 Feb 2017 11:30:02 +0000</lastBuildDate>
+    <generator>Jekyll v3.4.0</generator>
     
       <item>
         <title>Graduate Project</title>
-        <description>&lt;p&gt;Coming soon…&lt;/p&gt;
+        <description>&lt;p&gt;With the dissertation out of the way and the foundation research and dossier complete, its now time to begin the arduous task of making my graduate project idea a reality. This blog will act as a place to chart my explorations and findings as I continue to develop/ hone my idea and eventually realise the project for the end exhibition.&lt;/p&gt;
+
+&lt;p&gt;The project I proposed is titled “Gormley to Glitch” and is a projection mapping installation. The idea was to combine sculptural forms inspired by the works of Antony Gormley with glitch art to explore the physicality of the digital medium.&lt;/p&gt;
+
+&lt;p&gt;The challenge now is to develop this further: shifting away from a reliance on Gormley towards something more original, creative and unique. As I lack any formal training in fine art, this part will be the most difficult. It will requre coming up with ideas which are less linear, less predictable. I need to take a step sideways (perhaps into another dimension) not forward. In the coming weeks I plan to try and find this inspiration from within, avoiding conventional sources of inspiration to come up with something original.&lt;/p&gt;
 </description>
         <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/01/08/graduate-project-start/</link>
@@ -25,9 +29,7 @@
     
       <item>
         <title>New Portfolio Website &amp; Blog</title>
-        <description>&lt;p&gt;&lt;img src=&quot;/assets/blog/2016/02/rebirth.jpg&quot; alt=&quot;rebirth&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;If you’ve been here before, you may notice that something is different about this place…&lt;/p&gt;
+        <description>&lt;p&gt;If you’ve been here before, you may notice that something is different about this place…&lt;/p&gt;
 
 &lt;p&gt;Once again I’ve taken it upon myself to redesign my portfolio website as I was getting bored of the old design. I took this as an opportunity to try something a little bit different to my previous designs and as a chance to learn how to use Jekyll.&lt;/p&gt;
 

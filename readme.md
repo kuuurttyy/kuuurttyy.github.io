@@ -33,3 +33,5 @@ The name of the file ***must*** be the same as the title, capitals and spaces an
 		- url: (link to video embed url)
 		  caption: (optional caption)
 
+## Blog
+I've added support for a header_image in the blog posts, this will appear in the individual post view. Try not to make the pictures too tall as that would just look horrible. The need to be wide too.
