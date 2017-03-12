@@ -6,9 +6,63 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 12 Mar 2017 11:06:43 +0000</pubDate>
-    <lastBuildDate>Sun, 12 Mar 2017 11:06:43 +0000</lastBuildDate>
+    <pubDate>Sun, 12 Mar 2017 16:36:36 +0000</pubDate>
+    <lastBuildDate>Sun, 12 Mar 2017 16:36:36 +0000</lastBuildDate>
     <generator>Jekyll v3.4.0</generator>
+    
+      <item>
+        <title>The Uncanny</title>
+        <description>&lt;p&gt;This is a continuation of the thoughts at the end of the &lt;a href=&quot;/blog/graduate%20project/2017/03/11/mini-models/&quot;&gt;previous post&lt;/a&gt; on the uncanny as a concept for my project.&lt;/p&gt;
+
+&lt;p&gt;Upon further reading and thinking, it becomes clear that the uncanny relies on personal experience, so is not clearly definable. So as I see my project as being uncanny, it doesn’t mean that others will see it in this way - but I suppose its impossible to cater for everyone.&lt;/p&gt;
+
+&lt;p&gt;Freud and Jentsch both argue that the animation of inanimate objects is uncanny, and occurs when the boundary between animate and inanimate objects becomes confused. For example when objects imitate life, blurring the cultural, psychological and material boundaries between life and death. This explains the uncanniness of zombies and ghosts. But I don’t believe that it had to be about life and death, it can be blurring different boundaries, say physical and digital? Real and simulated? I suppose this is why humanoid robots are quite uncanny (You know the creepy Japanese ones with skin and terrifying expressions). All of this leads back to my idea of glitchy sculptures being uncanny. The glitch brings the calm, motionless sculptures to life in a very chaotic and confusing fashion. It blurs the boundaries between digital and physical media and makes us question the reality of what is before us. On a deeper level, as previously mentioned, it blurs the boundary between the real and simulated in how the sculpture is &lt;em&gt;appearing to&lt;/em&gt; glitch, but also in the fact that the glitches themselves are simulated (but the audience shouldn’t know this).&lt;/p&gt;
+
+&lt;p&gt;I stumbled across some somewhat similar work by New Media artist, &lt;a href=&quot;http://www.hellocatfood.com/uncanny-valley/, Uncanny Valley&quot;&gt;Antonio Roberts&lt;/a&gt; which he did as part of the &lt;a href=&quot;http://inhabitingthehack.github.io/&quot;&gt;Uncanny Valley event&lt;/a&gt; in 2015. In short, his work involved projecting glitch art onto natural objects, exploring the interaction between the projection and the uneven surfaces. What I find the most interesting about this is the vibrant, digital looking colours contrasted with the natural forms and textures. It raises questions about the nature of and interaction between the physical and digital, which can be quite uncanny and uncomfortable. I’ve included a couple of photos taken from Roberts’ Flickr from the event, so credit goes to him for those.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/roberts1.jpg&quot; alt=&quot;Uncanny Valley&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/roberts2.jpg&quot; alt=&quot;Uncanny Valley&quot; /&gt;&lt;/p&gt;
+</description>
+        <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/12/the-uncanny/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/12/the-uncanny/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
+    
+      <item>
+        <title>Face Capture</title>
+        <description>&lt;p&gt;After discussion my minor breakthrough yesterday, it was suggested that I try adding in some face capture to enhance the uncanny effect. I set up a quick and dirty test again and gave it a go.&lt;/p&gt;
+
+&lt;p&gt;The majority of the work is done in VDMX again, using a plugin which handles face capture (how convenient). For this I just used the webcam on my laptop and this plugin, then set the output of the plugin to syphon out so that I could use it as an input in MadMapper. From here I created four new quads and mapped them onto the face areas of the miniature sculptures. I also added a mask to the input as straight out of madmapper the video is a rectangle which includes some background so I crudely masked it out.&lt;/p&gt;
+
+&lt;p&gt;This test was more just a proof of concept, just to see if I could do it - turns out I can. However, without some major optimisation I’m not sure this is going to be possible given my current computing situation. As you might be able to see in the taskbar of the image below, my CPU was running at 99 degrees… and that really isn’t okay. Even more so, looking at the processes, VDMX combined with madmapper was using around 400% of the CPU. Now I’m now mathematician bit im pretty sure thats more than 100%. As a result, I’m not comfortable with leaving my computer running like this for extended periods of time, as it is likely to cause some damage.&lt;/p&gt;
+
+&lt;p&gt;On the brightside there are some easy improvements to be made as, I didn’t really take much care while putting together this prototype (I wanted it done as fast as possible). Firstly I can optimise the videos, both in terms of resolution and the codec used. At the moment the video for each of the sculptures is aproximately 720p, but given their shape and size, it’s pretty unnecessary. Also, when projecting glitchy things having a high resolution isn’t essential, the low-res pixellated look can just add to the ‘glitchy aesthetic’. Also I was using MPEG-4 codec for the videos as this renders out quickly and has a low file size. I’ve read that it is recommended to use photojpeg or Apple Intermediary codecs as they are less resource intensive when used in VDMX.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/face-capture-1.jpg&quot; alt=&quot;VDMX and MadMapper&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/face-capture-still.jpg&quot; alt=&quot;Face Capture Still&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Below is a short video with some footage from the test. I reused some of my existing glitchy footage and just had the captured face overlaying it. On this small scale it is difficult to encounter any added uncanniness, but with some imagination the effect could be visualised. In hindsight, I think it would be worth glitching the face too, see what effect that would have. I imagine at full scale it would look quite impressive.&lt;/p&gt;
+
+&lt;p&gt;If I was to continue chasing this idea (after fixing obvious optimisation issues of course), there are a few things I will need to consider. Firstly it is the placement of the camera and lighting. For the projection to look most impressive I need a dark room, but for the camera to detect faces I need light. Also I need the camera to be in front of the sculptures so that it can detect the faces of audience members looking at the sculptures so the positioning will need to be considered. Also, again, the poses of the sculptures comes under consideration. Perhaps it could be interesting to have the standing sculpture pointing towards where the camera is (or even secretly holding the camera) so that once it captures the face of the viewer the work suddenly changes and the viewer is now pointing at themselves. While this is happening, we have two onlookers (assuming keeping the tripartite installation) who also exhibit the viewers face. So we have the viewer watching the viewer point at themselves - quite an experience. All this while glitching and distorting, resulting in some wild, confusing, uncanny encounter. I will also need to think how best the glitches can ehance the uncanny experience when taking the face capturing into consideration. This can only come from more experimentation.&lt;/p&gt;
+
+&lt;p&gt;I find this idea really interesting but I am apprehensive due to technological limitations. It is an interesting way of adding interactivity to the work by forcing the viewer to be a part of it. They give no consent to having their face stolen, they just happen to be standing in the right place at the right time and the project works it’s magic. It is something that is unexpected when encountering sculpture in a gallery context, which is traditionally a very passive experience.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed//6QtHgZAjJ1s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+</description>
+        <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/12/face-capture/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/12/face-capture/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
     
       <item>
         <title>Mini Models</title>
