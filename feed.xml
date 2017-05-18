@@ -6,15 +6,52 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 11 May 2017 10:28:10 +0100</pubDate>
-    <lastBuildDate>Thu, 11 May 2017 10:28:10 +0100</lastBuildDate>
+    <pubDate>Thu, 18 May 2017 10:45:35 +0100</pubDate>
+    <lastBuildDate>Thu, 18 May 2017 10:45:35 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Projection Progress</title>
+        <description>&lt;p&gt;Over the past week or so, I’ve been trying to work on the content that I will be projecting onto the sculptures. In my last post I mentioned about the issues I was having about not having enough space in my house to project, so I’ve been coming up with a solution.&lt;/p&gt;
+
+&lt;p&gt;In a couple of weeks, I will be able to use a space at uni which is larger than my flat so I’ll be able to experiment with positioning the sculptures together. At this stage I will need to be considerate of how much space I take up in the way they’re positioned, and find positions for the projectors which provide the best coverage. This will also be an important stage as it will allow me to see how the sculptures interact, then use the projections to build on this interaction.&lt;/p&gt;
+
+&lt;p&gt;Until then however, I can (and have been) coming up with ideas. One concern was that people who are unfamiliar with the project might not view the sculptures as people. To combat this i’d like to try merging in some glitched body parts into the projections.&lt;/p&gt;
+
+&lt;p&gt;Below is a video of a few tests with different degrees of glitchiness and amounts of body parts. As it was a quick test, there isnt much variety in the body parts but I do have images of more which can be used. NOTE: all the images used are of myself. As I used my own form to build the sculptures it seemed necessary to use my features too. This adds to the uncanniness of the sculpture, especially for myself as it is so personal.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/uRccCRvgzS0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;From the begining, I’ve known that I wont be able to generate much, if any, of my content in advance. This is becuase every time I move a sculpture or a projector, the content doesn’t line up again so it needs to be regenerated. However, for adding these body parts at least, I’ve saved a preset in After Effects which will add certain expressions to a layer so that it will move as wanted. Each of the body parts has its position, scale, and rotation randomly changed each frame so that the result is purely chaotic. It changes the position between the bounds of the comp, the scale between 2 limits I can set (so it doesnt appear too big or small), and the rotation anywhere between 0 and 360 degrees.&lt;/p&gt;
+</description>
+        <pubDate>Thu, 18 May 2017 00:00:00 +0100</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/05/18/projection-progress/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/05/18/projection-progress/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
     
       <item>
         <title>Finished Sculptures</title>
         <description>&lt;p&gt;After a couple of weeks of cutting and gluing foamboard, the sculptures are finally finished. This now means its time to move onto the next phase of the project: developing the projections and working out how to set up the project for the exhibition.&lt;/p&gt;
 
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/full-standing-sitting.jpg&quot; alt=&quot;Full size standing and sitting&quot; /&gt;&lt;/p&gt;
+&lt;p&gt;The models started each with a base of MDF which I painted black so that it’s non-obtrusive. I then measured and cut some wood to create the armatures for the sitting and standing models. The next four photos show some progression of these armatures. They were screwed and glued together/ to the bases and an extra piece was added for stability. It also shows how the boxes were built around the armature for support.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/04/armature-1.jpg&quot; alt=&quot;Wooden Armature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/04/armature-2.jpg&quot; alt=&quot;Wooden Armature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/04/armature-3.jpg&quot; alt=&quot;Wooden Armature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/04/armature-4.jpg&quot; alt=&quot;Wooden Armature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;Some of the larger boxes have extra pieces hidden inside which provide more strength and make the overall model more rigid.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/04/inside-box.jpg&quot; alt=&quot;Wooden Armature&quot; /&gt;&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/full-standing-sitting.jpg&quot; alt=&quot;Wooden Armature&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/full-standing-1.jpg&quot; alt=&quot;Full size standing&quot; /&gt;&lt;/p&gt;
 
@@ -363,25 +400,6 @@
         <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/01/14/prototype-one/</link>
         <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/01/14/prototype-one/</guid>
-        
-        
-        <category>Graduate Project</category>
-        
-      </item>
-    
-      <item>
-        <title>Graduate Project Start</title>
-        <description>&lt;p&gt;With the dissertation out of the way and the foundation research and dossier complete, its now time to begin the arduous task of making my graduate project idea a reality. This blog will act as a place to chart my explorations and findings as I continue to develop/ hone my idea and eventually realise the project for the end exhibition.&lt;/p&gt;
-
-&lt;p&gt;The purpose of this section in the blog is to chart the development of my project from the initual pitch until the exhibition. It is a place to for me to organise my thoughts and feelings and express this as the work evolves.&lt;/p&gt;
-
-&lt;p&gt;The project I proposed is titled “Gormley to Glitch” and is a projection mapping installation. The idea was to combine sculptural forms inspired by the works of Antony Gormley with glitch art to explore the physicality of the digital medium. The dossier mapping the development of this work can be found &lt;a href=&quot;/assets/blog/2017/01/kurt-stubbings-dossier.pdf&quot;&gt;here (4.5mb)&lt;/a&gt;.&lt;/p&gt;
-
-&lt;p&gt;The challenge now is to develop this further: shifting away from a reliance on Gormley towards something more original, creative and unique. As I lack any formal training in fine art, this part will be the most difficult. It will requre coming up with ideas which are less linear, less predictable. I need to take a step sideways (perhaps into another dimension) not forward. In the coming weeks I plan to try and find this inspiration from within, avoiding conventional sources of inspiration to come up with something original.&lt;/p&gt;
-</description>
-        <pubDate>Sun, 08 Jan 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/01/08/graduate-project-start/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/01/08/graduate-project-start/</guid>
         
         
         <category>Graduate Project</category>
