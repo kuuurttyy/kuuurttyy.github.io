@@ -25,15 +25,15 @@
     <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
     <meta name="theme-color" content="#ffffff">
 
-    <title>Projection Progress | Kurt Stubbings Portfolio</title>
-    <meta name="description" content="Over the past week or so, I’ve been trying to work on the content that I will be projecting onto the sculptures. In my last post I mentioned about the issues...">
+    <title>Syphon Over A Network | Kurt Stubbings Portfolio</title>
+    <meta name="description" content="As my project has developed, it has become clear that it’ll be a bit too resource intensive to run everything on my laptop. For the project I am usually runn...">
 
     <script src="https://use.typekit.net/ard2lph.js"></script>
     <script>try{Typekit.load({ async: true });}catch(e){}</script>
     <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
 
     <link rel="stylesheet" href=" /css/main.css ">
-    <link rel="canonical" href="http://kurtstubbings.com/blog/graduate%20project/2017/05/18/projection-progress/">
+    <link rel="canonical" href="http://kurtstubbings.com/blog/graduate%20project/2017/05/26/syphon-over-a-network/">
     <link rel="alternate" type="application/rss+xml" title="Kurt Stubbings" href="http://kurtstubbings.com /feed.xml ">
 
 
@@ -59,19 +59,19 @@
     <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
 
         <header class="post-header">
-            <h1 class="post-title" itemprop="name headline">Projection Progress</h1>
+            <h1 class="post-title" itemprop="name headline">Syphon Over A Network</h1>
 
             <div class="post-meta">
 
                 <div class="post-date">
-                    <time datetime="2017-05-18T00:00:00+01:00" itemprop="datePublished">May 18, 2017</time>
+                    <time datetime="2017-05-26T00:00:00+01:00" itemprop="datePublished">May 26, 2017</time>
                 </div>
 
                 <div class="post-read-time">
                     \<span class="reading-time" title="Estimated read time">
   
   
-    2 minute read
+    1 minute read
   
 </span>\
                 </div>
@@ -92,17 +92,11 @@
         </header>
 
         <div class="post-content" itemprop="articleBody">
-            <p>Over the past week or so, I’ve been trying to work on the content that I will be projecting onto the sculptures. In my last post I mentioned about the issues I was having about not having enough space in my house to project, so I’ve been coming up with a solution.</p>
+            <p>As my project has developed, it has become clear that it’ll be a bit too resource intensive to run everything on my laptop. For the project I am usually running VDMX to mix and control video, MadMapper for mapping the videos and a projector to display them. For the exhibition however I will need to run yet another projector and my laptop struggles as it is.</p>
 
-<p>In a couple of weeks, I will be able to use a space at uni which is larger than my flat so I’ll be able to experiment with positioning the sculptures together. At this stage I will need to be considerate of how much space I take up in the way they’re positioned, and find positions for the projectors which provide the best coverage. This will also be an important stage as it will allow me to see how the sculptures interact, then use the projections to build on this interaction.</p>
+<p>To get the video content out of VDMX and into MadMapper, I use <a href="http://syphon.v002.info">syphon</a> which is an open-source technology which allows you to share frames between applications. As you could share between different applications on a laptop, surely you can share between applications on different laptops? Yes, yes you can.</p>
 
-<p>Until then however, I can (and have been) coming up with ideas. One concern was that people who are unfamiliar with the project might not view the sculptures as people. To combat this i’d like to try merging in some glitched body parts into the projections.</p>
-
-<p>Below is a video of a few tests with different degrees of glitchiness and amounts of body parts. As it was a quick test, there isnt much variety in the body parts but I do have images of more which can be used. NOTE: all the images used are of myself. As I used my own form to build the sculptures it seemed necessary to use my features too. This adds to the uncanniness of the sculpture, especially for myself as it’s so personal.</p>
-
-<div class="embed-container"><iframe src="https://www.youtube.com/embed/uRccCRvgzS0" frameborder="0" allowfullscreen=""></iframe></div>
-
-<p>From the begining, I’ve known that I wont be able to generate much, if any, of my content in advance. This is becuase every time I move a sculpture or a projector, the content doesn’t line up so it needs to be regenerated. However, for adding these body parts at least, I’ve created a preset in After Effects which will add certain expressions to a layer so that it will move as wanted. Each of the body parts has its position, scale, and rotation randomly changed each frame so that the result is purely chaotic. It changes the position between the bounds of the comp, the scale between 2 limits I can set (so it doesnt appear too big or small), and the rotation anywhere between 0 and 360 degrees. The result is chaotic and wonderful.</p>
+<p>I found another free application called <a href="http://techlife.sg/TCPSyphon/">Syphon2NDI</a> which allows you to share a syphon feed over a network. This will allow me to do the video mixing and rendering in VDMX on one laptop, syphon the output over a network and receive it on another machine which will map it to two projectors. With any luck, I’ll be able to borrow a mac from the uni which I can use to power the projectors while VDMX runs on my laptop.</p>
 
         </div>
 

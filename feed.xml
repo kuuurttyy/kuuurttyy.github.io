@@ -6,9 +6,26 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 18 May 2017 10:45:35 +0100</pubDate>
-    <lastBuildDate>Thu, 18 May 2017 10:45:35 +0100</lastBuildDate>
+    <pubDate>Sun, 28 May 2017 10:34:11 +0100</pubDate>
+    <lastBuildDate>Sun, 28 May 2017 10:34:11 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Syphon Over A Network</title>
+        <description>&lt;p&gt;As my project has developed, it has become clear that it’ll be a bit too resource intensive to run everything on my laptop. For the project I am usually running VDMX to mix and control video, MadMapper for mapping the videos and a projector to display them. For the exhibition however I will need to run yet another projector and my laptop struggles as it is.&lt;/p&gt;
+
+&lt;p&gt;To get the video content out of VDMX and into MadMapper, I use &lt;a href=&quot;http://syphon.v002.info&quot;&gt;syphon&lt;/a&gt; which is an open-source technology which allows you to share frames between applications. As you could share between different applications on a laptop, surely you can share between applications on different laptops? Yes, yes you can.&lt;/p&gt;
+
+&lt;p&gt;I found another free application called &lt;a href=&quot;http://techlife.sg/TCPSyphon/&quot;&gt;Syphon2NDI&lt;/a&gt; which allows you to share a syphon feed over a network. This will allow me to do the video mixing and rendering in VDMX on one laptop, syphon the output over a network and receive it on another machine which will map it to two projectors. With any luck, I’ll be able to borrow a mac from the uni which I can use to power the projectors while VDMX runs on my laptop.&lt;/p&gt;
+</description>
+        <pubDate>Fri, 26 May 2017 00:00:00 +0100</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/05/26/syphon-over-a-network/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/05/26/syphon-over-a-network/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
     
       <item>
         <title>Projection Progress</title>
@@ -18,11 +35,11 @@
 
 &lt;p&gt;Until then however, I can (and have been) coming up with ideas. One concern was that people who are unfamiliar with the project might not view the sculptures as people. To combat this i’d like to try merging in some glitched body parts into the projections.&lt;/p&gt;
 
-&lt;p&gt;Below is a video of a few tests with different degrees of glitchiness and amounts of body parts. As it was a quick test, there isnt much variety in the body parts but I do have images of more which can be used. NOTE: all the images used are of myself. As I used my own form to build the sculptures it seemed necessary to use my features too. This adds to the uncanniness of the sculpture, especially for myself as it is so personal.&lt;/p&gt;
+&lt;p&gt;Below is a video of a few tests with different degrees of glitchiness and amounts of body parts. As it was a quick test, there isnt much variety in the body parts but I do have images of more which can be used. NOTE: all the images used are of myself. As I used my own form to build the sculptures it seemed necessary to use my features too. This adds to the uncanniness of the sculpture, especially for myself as it’s so personal.&lt;/p&gt;
 
 &lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/uRccCRvgzS0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
 
-&lt;p&gt;From the begining, I’ve known that I wont be able to generate much, if any, of my content in advance. This is becuase every time I move a sculpture or a projector, the content doesn’t line up again so it needs to be regenerated. However, for adding these body parts at least, I’ve saved a preset in After Effects which will add certain expressions to a layer so that it will move as wanted. Each of the body parts has its position, scale, and rotation randomly changed each frame so that the result is purely chaotic. It changes the position between the bounds of the comp, the scale between 2 limits I can set (so it doesnt appear too big or small), and the rotation anywhere between 0 and 360 degrees.&lt;/p&gt;
+&lt;p&gt;From the begining, I’ve known that I wont be able to generate much, if any, of my content in advance. This is becuase every time I move a sculpture or a projector, the content doesn’t line up so it needs to be regenerated. However, for adding these body parts at least, I’ve created a preset in After Effects which will add certain expressions to a layer so that it will move as wanted. Each of the body parts has its position, scale, and rotation randomly changed each frame so that the result is purely chaotic. It changes the position between the bounds of the comp, the scale between 2 limits I can set (so it doesnt appear too big or small), and the rotation anywhere between 0 and 360 degrees. The result is chaotic and wonderful.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 May 2017 00:00:00 +0100</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/05/18/projection-progress/</link>
@@ -361,45 +378,6 @@
         <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/02/08/form-experiments/</link>
         <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/02/08/form-experiments/</guid>
-        
-        
-        <category>Graduate Project</category>
-        
-      </item>
-    
-      <item>
-        <title>Prototype One</title>
-        <description>&lt;p&gt;For my first prototype I looked at a range of Gormley sculptures to be inspired by their form. From here I moved into Cinema4D to create a scale 3D model of what I wanted to build to try it out. I want the models be the same height as me and the 3D model made reflects this. As this is a prototype I made it at 1/2 scale to save on material. The physical model was made out of 5mm foam board which was glued together.&lt;/p&gt;
-
-&lt;p&gt;At this stage my focus is on the physical models as this is the part which will be the most difficult for me in the project. I am also trying to construct a decent workflow for this so I can setup and get the project running as quickly and easily as possible. At the moment I am using After Effects to render some glitchy videos, then placing those into VDMX. I’m using VDMX so that I could potentially add interactivity in the future and also distort the videos further making them look more glitchy. I then syphon out to Madmapper and then map it onto the model.&lt;/p&gt;
-
-&lt;h3 id=&quot;current-challenges&quot;&gt;Current Challenges&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;Every time I move the projector or model I have to re-map and mask the image all over again. I don’t think this is avoidable but I need to find out if I can do it faster.&lt;/li&gt;
-  &lt;li&gt;Originally I planned to have the projector mounted on the ceiling, however having these sculptures mapped right down to the floor I don’t think this is feasible (and I can’t test ceiling mounting in my bedroom). In the future I will need to experiment with projector placement&lt;/li&gt;
-  &lt;li&gt;Foamboard is quite expensive and I don’t think it has the structural integrity to withstand being a full kurt-sized model. I will need to find a new material I can use for the models which are sturdier.&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;h3 id=&quot;questions&quot;&gt;Questions&lt;/h3&gt;
-&lt;ul&gt;
-  &lt;li&gt;How could I experiment further with the form?&lt;/li&gt;
-  &lt;li&gt;What if the boxes were at different angles rather than all forward facing?&lt;/li&gt;
-  &lt;li&gt;Could I add texture or use different materials to explore the effects?&lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/01/prototype-1-C4D.jpg&quot; alt=&quot;Prototype one made in Cinema4D&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/01/prototype-1-model.jpg&quot; alt=&quot;Prototype one half scale model&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/01/prototype-1-VDMX.jpg&quot; alt=&quot;VDMX Project&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/01/prototype-1-madmapper.jpg&quot; alt=&quot;Mapping in Madmapper&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/01/prototype-1-mapped.jpg&quot; alt=&quot;Final mapped model&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sat, 14 Jan 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/01/14/prototype-one/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/01/14/prototype-one/</guid>
         
         
         <category>Graduate Project</category>
