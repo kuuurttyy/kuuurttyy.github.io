@@ -6,9 +6,36 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 28 May 2017 10:34:11 +0100</pubDate>
-    <lastBuildDate>Sun, 28 May 2017 10:34:11 +0100</lastBuildDate>
+    <pubDate>Wed, 31 May 2017 14:44:11 +0100</pubDate>
+    <lastBuildDate>Wed, 31 May 2017 14:44:11 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title></title>
+        <description>&lt;p&gt;As I still can’t test the projection on all three sculptures together, I’m experimenting with different visuals on the lying model. At the moment I am still quite anxious and undecided as to what exactly I’d like to project and how I’d like it to look. I know that once I have all three positioned together and the projectors set up, I will be able to make better decisions about how I want it to look for the exhibiton.&lt;/p&gt;
+
+&lt;p&gt;This time has been spent generating and testing different ‘styles’ of glitch. I am trying different speeds, frequencies and other settings which change hour the glitch appears and saving them as presets so I’ll be able to use them in the future and quickly made adaptations/ improvements. I’ve included the three stages of tests so far. Video one has been posted before but the second two videos are new. They are all quite similar aesthetically becuase I have found a general style which I like and find interesting for this project.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/uRccCRvgzS0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/0LHQSjwSh2c&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/ecQ6ocVWQzs&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;In the latter half of these videos, I’ve introduced some new methods for making it appear more glitchy. This is mostly done using some audio analysis. Some of the clips use the ‘Glitch FBO’ effect in VDMX which is triggered to turn on and off based on ambient noise levels. Some also use the body part overlays which are also controlled by sound. I am using a step sequencer to toggle the opacity of the layer from 0% to 100%. The step sequence is randomly changed based on ambient noise levels too for more randomness. Part of the beauty of using these techniques is that moment will almost never be the same as there are so many variables randomly changing. The glitchy graphic loop may only be a couple of minutes long but there will be hours of unique cominations to see.&lt;/p&gt;
+
+&lt;p&gt;I showed these videos to a couple of friends for feedback and we all agree that the styles where the glitch isn’t constant work the best for actually considering it as ‘glitch’. I’m also swaying towards the ones which are at a slower pace as somehow they’re more engaging. If I do incorporate the body parts, I think they should be used sparingly so that they can still be quite surprising rather than there being too many.&lt;/p&gt;
+
+&lt;p&gt;I need to be careful not to lost sight of what I set out to achieve with this project in the first place. Gormley to Glitch is about exploring our relationship with art and sculpture by disrupting conventional viewing practices and expectations. It challenges the predictable nature of physical art by contrasting it with the unpredictability of glitch art. It is meant as an exploration of the digital and glitch itself by bringing the familiarity of the digital landscape into the physical world. From the start I knew I wanted to ‘glitch’ the sculpture, not just project glitchy things on the sculpture. It is a delicate balance to actually achieve this as obviously sculptures can’t actually glitch like this. Its about creating an illusion which makes the audience question the reality of what is before them as these physical objects seemingly malfunction digitally.&lt;/p&gt;
+
+&lt;p&gt;One of my biggest concerns is that the project will get boring to look at quickly. On one hand I consider how sculptures don’t do anything but people still find joy in those. I’m hoping that the random chaos of my project will be enough to draw in and maintain attention, especially as no two moments are the same. One glitch may be particularly beautiful but half a second later it’s gone, lost to the past never to be seen again. The audience will have to keep watching, keep hoping to catch more beautiful moment and savour them. This is quite different to the experience of a normal sculpture as the aesthetic appeal doesn’t change over time.&lt;/p&gt;
+</description>
+        <pubDate>Wed, 31 May 2017 14:44:11 +0100</pubDate>
+        <link>http://kurtstubbings.com/blog/2017/05/31/2017-05-29-projection-progress-part-two/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/2017/05/31/2017-05-29-projection-progress-part-two/</guid>
+        
+        
+      </item>
     
       <item>
         <title>Syphon Over A Network</title>
@@ -359,25 +386,6 @@
         <pubDate>Wed, 22 Feb 2017 00:00:00 +0000</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/02/22/artistic-development/</link>
         <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/02/22/artistic-development/</guid>
-        
-        
-        <category>Graduate Project</category>
-        
-      </item>
-    
-      <item>
-        <title>Form Experiments</title>
-        <description>&lt;p&gt;After creating my first prototype, I drew up a couple of alternate form ideas just to explore shapes and possibilities. This lead to the creation of two 1/8 scale models using the offcuts of foamboard to better visualise these forms.&lt;/p&gt;
-
-&lt;p&gt;I took measurements of my body to try and get the proportions right as I’d like to use myself for the forms - similar to how Gormley works. In future I’ll need to find a volunteer to take pictures of me in various poses and from different angles so I have better reference material for abstracting my form.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/02/scale-sketches.jpg&quot; alt=&quot;Form sketches&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/02/form-experiments.jpg&quot; alt=&quot;Form experiments&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Wed, 08 Feb 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/02/08/form-experiments/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/02/08/form-experiments/</guid>
         
         
         <category>Graduate Project</category>
