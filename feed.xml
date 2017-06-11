@@ -6,9 +6,109 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Thu, 08 Jun 2017 13:08:30 +0100</pubDate>
-    <lastBuildDate>Thu, 08 Jun 2017 13:08:30 +0100</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 09:29:50 +0100</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 09:29:50 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Another Day, Another Glitch</title>
+        <description>&lt;p&gt;Day two of testing on the full scene. Today’s plan was to create a few different styles which I could potentailly use as presets, then get some feedback on them so they can be improved and development. Testing was done using one minute loops played back at around half speed to reduce the framerate for both performance and aesthetic reasons (so the glitches aren’t as fast).&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/7gPavFbe4f0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Style 1 - Glitching all three together.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;On my first day of testing I appled glitch effects to the individual models. This time I wanted to try glitching all three together. The benefit of this is that fragmenets of one model can appear on the others. However in reality it doesn’t look very good when they all glitch similarly at the same time. It looks choreographed and mundane, not as glitchy as i’d like.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 2 - Colourful compression.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This test goes back to glitching the models individually but adds in some compression with the saturated colours. Each one has a different level of compression and a slightly different frequency of glitch (20%, 25% and 30%). The compression makes the edges look pixellated, however after watching it for a while it seems a bit pointless to do this with the projection. The models themselves already look compressed and pixelated, doing the same to the projection just makes it look like its been mapped poorly. I think compression might be something to exclude from projections as the form of the models already does enough.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 3 - Just displacement.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This style of glitch doesn’t introduce any colour to the sculptures. Each one had displacement glitches only with slight different settings to add some more variety. I quite like this effect. Its subtle but still really interesting. With each sculpture occasionally glitching and at different times, it sort of makes you think ‘did that really just happen?’ then you try and catch the next glitch as sometimes the one you’re looking at doesn’t do anything. It would be interesting to add some colour into this occasionally too, as as variant to the style with constant colour.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 3.5 - Just displacement + Glitch FBO.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Using the same source video as style 3, this one has random use of the Glitch FBO effect too to add further distortion. I like how it adds in occasional displacement which is huge so that a whole model is unlit, and how it adds in some crazy distorted colours and patterns. It makes it actually look far glitchier and more interesting, though it might be worth using the FBO effect more sparingly.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 4 - Displacement with a splash of colour.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;The video for this started similarly to style 3 however throughout the minute long loop, it is occasionally set to use colour in the glitches alongside the displacement. This adds some variety as sometimes it’ll do nothing, sometimes it’ll glitch and just displace and others it’ll displace and change colour. I think this works well as a style as there is more variety.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 4.5 - Displacement with a splash of colour + Glitch FBO.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Similar to how style 3.5 works, this one uses style 4 with occasional Glitch FBO. I slowed down the randomiser for this one so there are sometimes longer periods without the excessive glitching which I think is an improvement. This is probably my favourite style so far as it’s the most visually interesting.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 5 - Displacement + Convergence effect.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I decided to have a look through at some of the other effects in VDMX and found one called Convergence which seems to chaotically move the colour channels and blend them. I used the style 4 video as a base and had the effect randomly turn on and off. This style is surprisingly captivating. I’m not sure if its becuase its something new and I’m so used to the Glitch FBO effect, but I’m a big fan of this one and it definitely has a potential use in the final project.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 5.5 - Displacement + Convergence effect + Glitch FBO.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Again, similar to style 5 with the adducution of the Glitch FBO effect for further distorted, glitchy wonderfulness. The two effects run on different randomisers so theres such a variety to look at ranging from no glitch at all to full displacement and both effects at once. I think this could cut it as my new favourite.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 5.5.5 - Displacement + Convergence effect + Glitch FBO + Face capture.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is an iteration of style 5.5 which adds face tracking into the mix. Well for the video its not live face tracking as its only me in the room and I cant film and be in front of the camera. BUT it would work live, as long as the lighting in the exhibition room allowed for it. The faces are behind the glitched imaged in the mapping which use the add blend mode. So when the glitched video is white, the face cannot be seen, but when it is anything but white, the face can come through. As it is the glitches which make the video not white, the face appears when its glitched which is a very interesting and entertaining effect. The biggest issue with this is that its very resource intesive and makes my laptop run about 15 degrees hotter than it does without it. However in the show I think I might be able to work around this when I have an iMac to use. The plan for the show is to run VDMX on my laptop, then use syphon to get it to the iMac which is running madmapper and the 2 projectors. Depending on how powerful the iMac is, I could also run a face tracking Processing sketch and use syphon again to get that into madmapper. If I did it in Processing I could even have it display multiple faces so if theres more than one person they all get involved.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 6 - Complete Chaos&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This final style is similar to 5.5.5 but uses a different source video. The origial glitched source video has quite large blocks of colour in it which are a lot bolder than previous iterations. While this style looks quite nice, it doesn’t live up to the glory of styles with extra effects. So I added the random Convergence effect and Glitch FBO effect as well as the face tracking which makes it a lot more lively and interesting to watch. I also added the FBO effect to the face itself so that it glitches independantly too which works really well.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;Feedback will go here.&lt;/p&gt;
+</description>
+        <pubDate>Sat, 10 Jun 2017 00:00:00 +0100</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/10/another-day-another-glitch/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/10/another-day-another-glitch/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
+    
+      <item>
+        <title>Physical Work Begins!</title>
+        <description>&lt;p&gt;After many weeks of waiting, I am finally able to test the project fully with all three models together. I now have the opertinity to try out different layouts and styles to see how the final project will look.&lt;/p&gt;
+
+&lt;p&gt;Step one involved chosing an arrangement for three models and the 2 projectors. The goal was to get the best coverage on the models but taking up the least space as I need to be considerate of other people’s projects at the show. I am hoping that I’ll be able to use a corner at the exhibiton as it will block off 2 possible directions people could come from. At the moment I have the sitting and standing models staggered at the back and the lying model in front of them. HOW FAR ARE PROJECTORS?&lt;/p&gt;
+
+&lt;p&gt;If the exhibiton space allows I’d like to spread it out a bit more, so that it isn’t so compressed but I’ll find out if I can do this in a week or so. I also need to be conscious that the sitting and standing models are using the same projector so they can’t be too far from each other or at too different depths or the projections wont be in focus.&lt;/p&gt;
+
+&lt;p&gt;With my current layout, there are two possible viewing angles which work well: one face on and another from the side which lets the audience see one side and the front. The viewing is split by the placement of the projectors so I will need to make sure that no one will knock or jog them as it will ruin the mapping.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;p&gt;For this testing, I am using my old Macbook and a Dualhead2go so that I can run two projectors off a single output. However the Dualhead2go the uni has isn’t the version that is compatable with mac so it doesn’t work as well as it should. it SHOULD output a double wide video  (2 * 1920px x 1080px) and then each projector uses half of that, but as this one isn’t supported, it only puts out a single width video and spreads it across the two. This means each projector is actually running at 960px x 1080px which is a weird resolution. In the show this shouldn’t be an issue as I am planning on borrowing a mac from the uni which as two video outputs anyway.&lt;/p&gt;
+
+&lt;hr /&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/4XXLta6xic0&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;In the video there are three main variations, each shows from the two viewing angles. The first variant is one of the standard glitch aesthetics I’ve been using as I really like it. The sculptures are constantly lit and there are coloured fragmenets jumping about the place. The second introduces the Glitch FBO effect from VDMX which is randomly tuned on and off. This results in moments which are REALLY glitchy and is far more chaotic. Having the effect turn on and off randomly allows for some great contrast between stillness and utter glitchy chaos. The final variant builds on the second and thows in some eyes during the extra glitchy moments as they’re controlled in the same way. This was more interesting than expected and I plan on working out a good scale and amount of eyes/ other features to use for the show.&lt;/p&gt;
+
+&lt;p&gt;As there are so many different glitchy styles and aesthetics, my current plan is to create a series of loops which will cycle through and repeat throughout the exhibiton. So instead of it being 5 hours straight of a single effect, I could great some 5 minute loops for example and play through them. I think this will make it more interesting for an extended period of time as there is more variation. The next step is to come up with the loops!&lt;/p&gt;
+</description>
+        <pubDate>Fri, 09 Jun 2017 00:00:00 +0100</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/09/bringing-the-family-together/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/09/bringing-the-family-together/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
     
       <item>
         <title>Random Thoughts</title>
@@ -289,107 +389,6 @@
         <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/12/the-uncanny/</link>
         <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/12/the-uncanny/</guid>
-        
-        
-        <category>Graduate Project</category>
-        
-      </item>
-    
-      <item>
-        <title>Face Capture</title>
-        <description>&lt;p&gt;After discussion my minor breakthrough yesterday, it was suggested that I try adding in some face capture to enhance the uncanny effect. I set up a quick and dirty test again and gave it a go.&lt;/p&gt;
-
-&lt;p&gt;The majority of the work is done in VDMX again, using a plugin which handles face capture (how convenient). For this I just used the webcam on my laptop and this plugin, then set the output of the plugin to syphon out so that I could use it as an input in MadMapper. From here I created four new quads and mapped them onto the face areas of the miniature sculptures. I also added a mask to the input as straight out of madmapper the video is a rectangle which includes some background so I crudely masked it out.&lt;/p&gt;
-
-&lt;p&gt;This test was more just a proof of concept, just to see if I could do it - turns out I can. However, without some major optimisation I’m not sure this is going to be possible given my current computing situation. As you might be able to see in the taskbar of the image below, my CPU was running at 99 degrees… and that really isn’t okay. Even more so, looking at the processes, VDMX combined with madmapper was using around 400% of the CPU. Now I’m now mathematician bit im pretty sure thats more than 100%. As a result, I’m not comfortable with leaving my computer running like this for extended periods of time, as it is likely to cause some damage.&lt;/p&gt;
-
-&lt;p&gt;On the brightside there are some easy improvements to be made as, I didn’t really take much care while putting together this prototype (I wanted it done as fast as possible). Firstly I can optimise the videos, both in terms of resolution and the codec used. At the moment the video for each of the sculptures is aproximately 720p, but given their shape and size, it’s pretty unnecessary. Also, when projecting glitchy things having a high resolution isn’t essential, the low-res pixellated look can just add to the ‘glitchy aesthetic’. Also I was using MPEG-4 codec for the videos as this renders out quickly and has a low file size. I’ve read that it is recommended to use photojpeg or Apple Intermediary codecs as they are less resource intensive when used in VDMX.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/face-capture-1.jpg&quot; alt=&quot;VDMX and MadMapper&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/face-capture-still.jpg&quot; alt=&quot;Face Capture Still&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;Below is a short video with some footage from the test. I reused some of my existing glitchy footage and just had the captured face overlaying it. On this small scale it is difficult to encounter any added uncanniness, but with some imagination the effect could be visualised. In hindsight, I think it would be worth glitching the face too, see what effect that would have. I imagine at full scale it would look quite impressive.&lt;/p&gt;
-
-&lt;p&gt;If I was to continue chasing this idea (after fixing obvious optimisation issues of course), there are a few things I will need to consider. Firstly it is the placement of the camera and lighting. For the projection to look most impressive I need a dark room, but for the camera to detect faces I need light. Also I need the camera to be in front of the sculptures so that it can detect the faces of audience members looking at the sculptures so the positioning will need to be considered. Also, again, the poses of the sculptures comes under consideration. Perhaps it could be interesting to have the standing sculpture pointing towards where the camera is (or even secretly holding the camera) so that once it captures the face of the viewer the work suddenly changes and the viewer is now pointing at themselves. While this is happening, we have two onlookers (assuming keeping the tripartite installation) who also exhibit the viewers face. So we have the viewer watching the viewer point at themselves - quite an experience. All this while glitching and distorting, resulting in some wild, confusing, uncanny encounter. I will also need to think how best the glitches can ehance the uncanny experience when taking the face capturing into consideration. This can only come from more experimentation.&lt;/p&gt;
-
-&lt;p&gt;I find this idea really interesting but I am apprehensive due to technological limitations. It is an interesting way of adding interactivity to the work by forcing the viewer to be a part of it. They give no consent to having their face stolen, they just happen to be standing in the right place at the right time and the project works it’s magic. It is something that is unexpected when encountering sculpture in a gallery context, which is traditionally a very passive experience.&lt;/p&gt;
-
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed//6QtHgZAjJ1s&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-</description>
-        <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/12/face-capture/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/12/face-capture/</guid>
-        
-        
-        <category>Graduate Project</category>
-        
-      </item>
-    
-      <item>
-        <title>Mini Models</title>
-        <description>&lt;p&gt;After deciding on wanting three models for the installation, I thought it was about time to start doing some tests with some scale models and experiment with different glitch projections.&lt;/p&gt;
-
-&lt;p&gt;The first step involved getting some source images to work from of myself. With the help of a friend, I frolicked around for a little bit as they took pictures of me in different poses giving me a starting point for modelling. This process was inspired by the way Gormley operated, using his own body for his sculptural works. From here I then took some measurements of myself, did some quick maths to work out scale sizes and sketched up some ideas. These are shown below. I have no idea what most of these numbers mean anymore but at least it provides evidence of… something. For the mini models im working at 1/8 scale so that they’re around 22cm tall. Using the measurements I took, I started designing a couple of models in Cinema4D at the correct scale, This allowed me to visualise better how they would look before moving to physical materials. It also gave me the dimensions I needed to quickly and easily cut out the foamboard and glue it together - Each one still took over 5 hours to make though! You may have noticed that the standing model has a different ‘aesthetic’ to the other two - this is because I reused one of the scale models I had built before as I didn’t want to delay progressing by another day to build yet ANOTHER scale model.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/model-source.jpg&quot; alt=&quot;Selection of some of the source photos taken&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/model-maths.jpg&quot; alt=&quot;Some measurements and sketches&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/mini-model-c4d.jpg&quot; alt=&quot;Models mocked up in Cinema4D&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;The arrangement of the models in this scaled version is rather arbitrary, I just placed them in a way that seemed acceptable to project onto with a single projector and cover a sufficient amount of the surfaces to make it look cool. Ideally in the real model I’d like to be able to project directly downwards onto the sculpture, inviting people to come closer and view the projection.&lt;/p&gt;
-
-&lt;p&gt;Mapping onto this was kind of a nightmare. With such complex shapes, it’s quite a task to perfectly map onto them so I had to settle for some rather crude mapping with quite a lot of bleeds - thank God this is just a prototype. I built a VDMX layout so that I could work with the different sculptures and easily be able to customise the projection for each one.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/model-vdmx.jpg&quot; alt=&quot;VDMX Layout&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;After a long time setting up, I was finally able to start projecting some different ideas. I’ve made a quick compilation video to show some of the different types. It’s worth noting that this is very difficult to film as the camera on my phone struggles with the crazy flashing lights. Below is a commentary about each test to share what the idea was and my thoughts on it.&lt;/p&gt;
-
-&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed//zxk8Lp8GGSw&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
-
-&lt;ul&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Standard glitching:&lt;/strong&gt; This one was the logical starting point moving from a singular sculpture to a three. The Glitch has the same settings across each model, but with a different seed so that the exact glitch pattern isn’t the same. While it looks alright, it doesn’t seem to have any depth or meaning, it’s a bit dull in the grand scheme of things.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Standard glitching plus:&lt;/strong&gt; This is a slight variation on the first clip, but with the addition of the Glitch FBO effect in VDMX to the lying sculpture. This effect basically mangles data from the graphics card resulting in some wild, fast and crazy glitch effects. I changed how the mapping works a little for this one so that the projection from the lying sculpture can slightly interfere with the other two - it doesn’t come across very well in the video but it totally does it. The idea for this one was associated with freud’s notion of the id as the unconscious mind and primal desires. I imagine this being rapid, quickly changing, chaotic.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;RGB:&lt;/strong&gt; This idea is inspired by the red, green and blue colour separation of displays (and by the cones in our eyes). It separates the three colours, one to each sculpture and then just adds some glitchy effects to it for good measure. I think this idea has some potential but I’ll need to rationalise the colour separation, and better utilise it to communicate something.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Dark sculptures:&lt;/strong&gt; In pretty much all of my tests prior, I started with some base colour projection, usually white, then add the glitch to that. This meant that the sculptures were always lit and bright. In this idea, only the glitches introduce bright, fast, colourful flashes of light which are chaotic and disorientating. Unfortunately I had to film it in quite a bright room as my camera couldn’t handle the sudden changes in light levels very well, but I assure you it looks very good in a dimly lit room. Scaled up, I can imagine this effect being quite incredible as the sculptures fleetingly flash into life and disappear and instant later. If the room was dark enough it would be difficult to take in the sculptures as a whole, instead they would be interpreted through brief fragments as they show themselves then disappear back into the darkness. This idea definitely has potential (especially as I really like it).&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Nature imagery:&lt;/strong&gt; This idea is inspired by discussions had with my tutor and peers. For it I chose some nature videos from YouTube pretty much from random, just to test the appearance of projecting imagery onto the sculptures rather than simply ‘glitch’. I then glitched them in VDMX. The result was quite interesting. The glitchy videos were very chaotic which I found entertaining and hypnotic. Having them constantly glitch meant that it was quite difficult to comprehend what the imagery was of. Plus the shape of the sculptures themselves don’t really commend themselves as canvases for watching 16:9 video content.&lt;/p&gt;
-  &lt;/li&gt;
-  &lt;li&gt;
-    &lt;p&gt;&lt;strong&gt;Audio-reactive nature imagery:&lt;/strong&gt; Because I could, I made the glitches audio-reactive so that they would turn on and off and change intensity based on audio detection. This is just an example of a potential interaction method, as I would like to add interactivity to the project if it can help get a message across. Having the glitch controlled by mused created a sense of purpose or intent for the glitch, as it if had some more solid meaning for being there.&lt;/p&gt;
-  &lt;/li&gt;
-&lt;/ul&gt;
-
-&lt;p&gt;My main issue with these last two examples is the introduction of imagery/ video content projected onto the sculptures. Doing so, for me at least, distracts from the fact that they’re sculptures at all. They’re shaped like people, they’re formidable and have a sense of presence. I think this takes it too far from being a sculpture in the traditional sense. Sculptures are motionless, eternal figures which solidify a moment in time and tears itself from its bounds. I want it to look as if the sculptures themselves are glitching, not the content projected onto the sculptures glitching, which is why im apprehensive to add specific imagery. Sculptures don’t glitch. BUT these ones are. They are physical objects seemingly malfunctioning in a digital way. Yet these sculptures are not digital, how is this possible? The combination of glitch and sculpture breaks down the boundaries between the physical and digital worlds. It allows us to see a digital phenomenon more physically, and in a way, something a physical phenomenon more digitally. This idea fits nicely with the paradigm shift in how we consume the majority of our media and art. It breaks from how we usually experience sculptural works. Sculptures are still, calm, serene, but these ones are confusing, chaotic, yet mesmerising. The eternal beauty and stillness of the sculpture is rudely interrupted by bright flashes of colour, fragments seemingly disappearing and reappearing, all in a way which goes beyond our established relationship with sculpture. For me, it breaks the traditional awe associated with physical art and creates something slightly uncomfortable because the fleeting moments of digital chaotic beauty are almost impossible to catch. The beauty is not so much in the form of the sculpture but in the glitch moments, the moments you may never encounter again.&lt;/p&gt;
-
-&lt;p&gt;So now you may be thinking: Why are the sculptures people? Why not different trees or something? Well, while writing that last paragraph I had an idea. Using the human form for the sculptures makes them more relatable. They may be abstracted, and expressionless combinations of white boxes, but they serve as a blank canvas for projecting ones self. In my case especially, as these sculptures are modeled on my dimensions I can only imagine the effect will be rather &lt;em&gt;uncanny&lt;/em&gt;. Having these three Kurt-sized models staring back at me should be quite an experience. The sculptures are strangely familiar. The variety of poses (standing, sitting and lying) makes them more human, more relatable.&lt;/p&gt;
-
-&lt;p&gt;So this brings us to my idea. &lt;strong&gt;The uncanny&lt;/strong&gt;. In an amazing stroke of luck, it brings us back to our good friend, Sigmund Freud, the starting point for the investigation with his work on the human psyche. The uncanny is a psychological concept which describes something that is strangely familiar and foreign such that it creates a feeling of discomfort. It can create a sort of cognitive dissonance due to being attracted to yet repulsed by an object, in this case, the glitching sculptures. Uncanniness was first explored by Ernst Jentsch who described it as a product of ‘intellectual uncertainty’ caused by something which is not fully understood. For me, the digital fits this perfectly, especially when it malfunctions or glitches. Its something most of us encounter on a daily basis, yet in a way it has remained rather mysterious. These magical boxes which light up and allow us to access unlimited amounts of information instantly. Unfortunately the ubiquity of the digital has normalised this, but if I just sit and think, it just astounds me and makes me feel quite uncomfortable. Freud developed the concept of the uncanny, specifically an aspect of the word derived from German etymology. Uncanny comes from the German word &lt;em&gt;unheimlich&lt;/em&gt; which applies to things which were intended to remain secret, hidden away, but have come into the open. Sound familiar? In my previous writings I’ve mentioned how glitches serve as breaks in the usual or expected flows of information. They reveal the computational nature of the digital which exists outside of our representations. Glitches unmask the veil of the screen, revealing the true nature of the software behind.&lt;/p&gt;
-
-&lt;p&gt;We’re seeing something in a broken or malfunctioning state. I can only really talk for myself, but I don’t usually like broken things. I like things to be precise, perfect, but there is something about glitches which are strangely enticing and beautiful. They’re chaotic and confusing, seemingly beyond my control, yet the flashes of colour in all their distorted glory mesmerise me. This point can be linked back to an argument Frued made about the uncanny. The uncanny is what unconsciously reminds us of our own id, our forbidden and unconscious desires. This is perceived as threatening by our superego. The items and people we project our repressed impulses upon become uncanny threats. For example zombies are uncanny. They’re humanlike, but they’re dead and they eat people. We find zombies uncanny because they’re so almost human but we don’t want to be associated with them. It could also be to do with our fear of death, and perhaps some people’s repressed desires to eat other people. So could the uncanny appeal of glitch be playing on people’s fear of being broken, or being seen in a way that reveals our hidden thoughts and desires? Maybe…&lt;/p&gt;
-
-&lt;p&gt;Put simply, seeing human shaped sculptures glitch is uncanny. It’s taken me a while to realise what was so interesting about it and I think I’ve finally worked it out. They’re sculptures, sculptures don’t glitch. They’re people, people don’t glitch. Yet here we are. It’s weird. It’s uncomfortable. It’s uncanny.&lt;/p&gt;
-
-&lt;hr /&gt;
-
-&lt;p&gt;A little side note about any arguments one might have to do with me talking about glitch as being a result computational error -&lt;/p&gt;
-
-&lt;p&gt;The majority of glitches used in the work thus far are simulations. Theyre generated using a tool which allows for so much freedom in recreating the glitch aesthetic its amazing. This allows me to fine-tune the glitch projected onto the sculptures but they’re still chaotic, random and beautiful. However from the perspective of the audience, they (generally) don’t know that it is a simulation, so they will perceive them as real glitches.&lt;/p&gt;
-
-&lt;p&gt;One of the effects used in VDMX does, in a way, result in real glitch. It works by distorting data taken from the graphics card resulting in actual glitches. This, when combined with my simulated glitches disrupts the boundary between real and simulated to the point that no one has any idea whats going on anymore. However this effect needs to be used sparingly as it, due to its nature, can result in crashes - which is not what I want.&lt;/p&gt;
-</description>
-        <pubDate>Sat, 11 Mar 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/11/mini-models/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/11/mini-models/</guid>
         
         
         <category>Graduate Project</category>
