@@ -6,8 +6,8 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2017 09:36:12 +0100</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2017 09:36:12 +0100</lastBuildDate>
+    <pubDate>Sun, 11 Jun 2017 10:48:30 +0100</pubDate>
+    <lastBuildDate>Sun, 11 Jun 2017 10:48:30 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
     
       <item>
@@ -68,7 +68,20 @@
 
 &lt;hr /&gt;
 
-&lt;p&gt;Feedback will go here.&lt;/p&gt;
+&lt;h1 id=&quot;feedback&quot;&gt;Feedback&lt;/h1&gt;
+
+&lt;p&gt;Here are a few comments from friends and family after showing them the above video:&lt;/p&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;The ones with the faces look the best&lt;/li&gt;
+  &lt;li&gt;The face doesn’t have to be in the same place, it could move from block to block or something.&lt;/li&gt;
+  &lt;li&gt;It would go great with music (but I understand that isn’t what the project is about)
+    &lt;ul&gt;
+      &lt;li&gt;Maybe not music, but I have&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;&lt;/li&gt;
+&lt;/ul&gt;
 </description>
         <pubDate>Sat, 10 Jun 2017 00:00:00 +0100</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/10/another-day-another-glitch/</link>
