@@ -1,0 +1,211 @@
+<!DOCTYPE html>
+<html>
+
+  <head>
+    <meta charset="utf-8">
+    <meta http-equiv="X-UA-Compatible" content="IE=edge">
+    <meta name="viewport" content="width=device-width, initial-scale=1">
+
+    <link rel="apple-touch-icon" sizes="57x57" href="/assets/favicon/apple-touch-icon-57x57.png">
+    <link rel="apple-touch-icon" sizes="60x60" href="/assets/favicon/apple-touch-icon-60x60.png">
+    <link rel="apple-touch-icon" sizes="72x72" href="/assets/favicon/apple-touch-icon-72x72.png">
+    <link rel="apple-touch-icon" sizes="76x76" href="/assets/favicon/apple-touch-icon-76x76.png">
+    <link rel="apple-touch-icon" sizes="114x114" href="/assets/favicon/apple-touch-icon-114x114.png">
+    <link rel="apple-touch-icon" sizes="120x120" href="/assets/favicon/apple-touch-icon-120x120.png">
+    <link rel="apple-touch-icon" sizes="144x144" href="/assets/favicon/apple-touch-icon-144x144.png">
+    <link rel="apple-touch-icon" sizes="152x152" href="/assets/favicon/apple-touch-icon-152x152.png">
+    <link rel="apple-touch-icon" sizes="180x180" href="/assets/favicon/apple-touch-icon-180x180.png">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-32x32.png" sizes="32x32">
+    <link rel="icon" type="image/png" href="/assets/favicon/android-chrome-192x192.png" sizes="192x192">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-96x96.png" sizes="96x96">
+    <link rel="icon" type="image/png" href="/assets/favicon/favicon-16x16.png" sizes="16x16">
+    <link rel="manifest" href="/assets/favicon/manifest.json">
+    <link rel="mask-icon" href="/assets/favicon/safari-pinned-tab.svg" color="#5bbad5">
+    <meta name="msapplication-TileColor" content="#da532c">
+    <meta name="msapplication-TileImage" content="/assets/favicon/mstile-144x144.png">
+    <meta name="theme-color" content="#ffffff">
+
+    <title>Glitch Style Refinement | Kurt Stubbings Portfolio</title>
+    <meta name="description" content="After recieving some feedback on my previous tests and coming up with a few more techniques to try, I went back to resume testing! Again, the notes below are...">
+
+    <script src="https://use.typekit.net/ard2lph.js"></script>
+    <script>try{Typekit.load({ async: true });}catch(e){}</script>
+    <script type="text/javascript" src="https://code.jquery.com/jquery-2.2.0.min.js"></script>
+
+    <link rel="stylesheet" href=" /css/main.css ">
+    <link rel="canonical" href="http://kurtstubbings.com/blog/graduate%20project/2017/06/11/glitch-style-refinement/">
+    <link rel="alternate" type="application/rss+xml" title="Kurt Stubbings" href="http://kurtstubbings.com /feed.xml ">
+
+
+</head>
+
+  <body>
+
+    <div class="nav-toggle-container">
+    <div class="hexagon"></div>
+    <a class="nav-toggle" href="#" title="Menu">
+        <span class="line line-1"></span>
+        <span class="line line-2"></span>
+        <span class="line line-3"></span>
+    </a>
+</div>
+
+    <div class="page-content" id="main-content">
+      <div class="wrapper" id="wrapper">
+        <div class="top-dec"></div>
+
+
+<div class="blog-wrapper">
+    <article class="post" itemscope itemtype="http://schema.org/BlogPosting">
+
+        <header class="post-header">
+            <h1 class="post-title" itemprop="name headline">Glitch Style Refinement</h1>
+
+            <div class="post-meta">
+
+                <div class="post-date">
+                    <time datetime="2017-06-11T00:00:00+01:00" itemprop="datePublished">Jun 11, 2017</time>
+                </div>
+
+                <div class="post-read-time">
+                    \<span class="reading-time" title="Estimated read time">
+  
+  
+    5 minute read
+  
+</span>\
+                </div>
+
+                
+                <div class="post-category-author">
+                   
+                       Posted in <a class="category-link" title="Graduate Project" href="#">Graduate Project</a>                       
+                   
+                    by <span itemprop="author" itemscope itemtype="http://schema.org/Person"><span itemprop="name">Kurt</span></span>
+                </div>
+                
+
+            </div>
+            
+            
+
+        </header>
+
+        <div class="post-content" itemprop="articleBody">
+            <p>After recieving some feedback on my previous tests and coming up with a few more techniques to try, I went back to resume testing! Again, the notes below are mostly for my reference but feel free to read them.</p>
+
+<div class="embed-container"><iframe src="https://www.youtube.com/embed/YJMt1AlAjQQ" frameborder="0" allowfullscreen=""></iframe></div>
+
+<p>Style 7 - Bigger displacement.</p>
+<ul>
+  <li>This style is a development from style 3 which disables the small glitches and makes the large displacement glitches even bigger. I kept them quite infrequent and made them even slower as was suggested. The higher degree of displacement works better I feel, however I think some of the glitches are too slow, they seem almost too permanent to be glitches. It doesn’t really have the same psychological effect as a real glitch.</li>
+</ul>
+
+<p>Style 7.5 - Displacement with occasional colour</p>
+<ul>
+  <li>A variation of style 7 which uses small glitches for the majority, but had a 25% chance of displaying a large glitch which will introduce colour. It is still slower, but perhaps slightly more varied. Very similar to style 7, the colour glitches are quite infrequent but they not really impactful enough.</li>
+</ul>
+
+<p>Style 8 - Feedback loop</p>
+<ul>
+  <li>I found a way to create a feedback loop with layers so that there is constant iteration of effects being applied over and over resulting in some really glitchy results. I used this effect alongside the Glitch FBO and a zooming effect, triggering both randomly and independantly. The zoom effect is controlled by audio analysis to determine how much to zoom. I definitely think using the FBO effect is important for making something which actually looks glitched. It adds a lot more depth, chaos and complexity to the projection which is missing from the standard After Effects renders. Also being able to trigger it on and off dynamically is a huge bonus. The feedback zooming loop is also quite interesting actually as the zooming in and out dynamically creates a greater sense of depth to the models, emphasising their 3D-ness.</li>
+</ul>
+
+<p>Style 9 - Glitch plus me</p>
+<ul>
+  <li>This is based on feedback from my tutor to use the human figure more holistically. This style has an image of me mapped onto each of them which appears behind the glitchy sculpture so that when the sculpture glitches I appear, how lovely. The result was quite interesting, and definitely made them feel more like people. The glitching and shifting fragments revealed a hidden side of the sculpture - as they were modelled on my form. This version could do with more glitch.</li>
+</ul>
+
+<p>Style 9.5 - Glitch plus me + Glitch FBO</p>
+<ul>
+  <li>As the title suggests, the Glitch FBO effect is back. This time it is definitely more effective with its glitchiness. Couple of things worth noting though. The FBO effect often causes the layer to not be displaying fully, therefore when i’m revealed I don’t display all the time either. It might be worth separating me into a separate layer and exploring that. Also with the FBO effect added, I need to consider the frequency of me appearing. I want to to be frequent enough that people notice it and understand it, but not so frequent that it becomes mundane and undermines what the glitch is about.</li>
+</ul>
+
+<p>Style 10 - Glitch plus me glitching</p>
+<ul>
+  <li>Similar to style 9 but this time I’m also glitching occasionally when revealed. This is definitely an improvement on style 9 as it adds more dynacism to the underlying me, makes it more interesting and revealing I think.</li>
+</ul>
+
+<p>Style 10.5 Glitch plus me glitching + Chaos</p>
+<ul>
+  <li>Adding the feedback glitches from Style 8 to this really spiced it up. It has a fantastic balance between calm and chaos while still occasionally reveling what lies underneath. I like this one as it is less obvious that the person appears as sometimes the glitches take it beyond reality. The models go through a variety of forms, from static sculpture to slightly distorted, revealing the human form underneath to pure digital, colourful chaos which may have brief glimpeses of the human form. Its as if one level of glitch reveals whats underlying on the first layer, then it goes deeper, too deep beyind our representations of the world.</li>
+</ul>
+
+<p>Style 11 - Separated glitch layers</p>
+<ul>
+  <li>This is a continuation of the previous styles but the images of me are in an independant layer so the effects can be controlled differently. The Kurt layer is just using displacement glitches so It doesn’t end up too distorted but there is still a degree of distortion. The sculpture layer has a mixture of glitches with Glitch FBO effect included occasionally to add some spice. I think having me on a separate layer is a definite improvement as i’m more persistantly underneath when revealed by the FBO effect.</li>
+</ul>
+
+<p>Style 11.5 - Separated layers + feedback</p>
+<ul>
+  <li>Again using the wonderful feedback effect with the zooming on top of style 11 to add more glitch. This effect I think adds more ‘spectacle’ rather than psychological depth but it sure does look cool. I found this style one that I could look at for longer as it was far more interesting to watch because there was more happening.</li>
+</ul>
+
+<hr />
+
+<h1 id="general-comments-from-myself">General comments from myself</h1>
+
+<ul>
+  <li>I quite like the simple displacement effects with no added colour, especially how they disregard the existing blocky form and break in other places, not just where the distinct blocks are.</li>
+  <li>If I go with the option of including fully body images of myself, I will need to take more consideration of what clothes I wear and facial expression I have to make it more meaningful. I would also line it up better but as this was for a test it didn’t seem worth the hassle. Perhaps I could also have different outfits or expressions which change… who knows.</li>
+  <li>My current struggle is to find a balance between pretty pictures and considering the actual psychological effect of glitch art. Currently I’ve been focused on pretty pictures and just creating a chaotic, colourful spectacle. As much as I love this, my supervisor has a valid point that I need to further consider the artistic value of what I create. This more challenging for me as I am very technology focused. I’m more interested in the tools and how theyre used rather than deeper meaning within the work.</li>
+</ul>
+
+<h1 id="feedback">Feedback</h1>
+
+<p>Coming soon.</p>
+
+        </div>
+
+    </article>
+</div>
+      </div>
+    </div>
+
+    <footer>
+    <div class="footer-inner">
+        <ul class="social-media-list">
+            
+            <li>
+                <a href="https://github.com/kuuurttyy" target="_blank"><span class="icon icon--github"><svg viewBox="0 0 16 16"><path fill="#828282" d="M7.999,0.431c-4.285,0-7.76,3.474-7.76,7.761 c0,3.428,2.223,6.337,5.307,7.363c0.388,0.071,0.53-0.168,0.53-0.374c0-0.184-0.007-0.672-0.01-1.32 c-2.159,0.469-2.614-1.04-2.614-1.04c-0.353-0.896-0.862-1.135-0.862-1.135c-0.705-0.481,0.053-0.472,0.053-0.472 c0.779,0.055,1.189,0.8,1.189,0.8c0.692,1.186,1.816,0.843,2.258,0.645c0.071-0.502,0.271-0.843,0.493-1.037 C4.86,11.425,3.049,10.76,3.049,7.786c0-0.847,0.302-1.54,0.799-2.082C3.768,5.507,3.501,4.718,3.924,3.65 c0,0,0.652-0.209,2.134,0.796C6.677,4.273,7.34,4.187,8,4.184c0.659,0.003,1.323,0.089,1.943,0.261 c1.482-1.004,2.132-0.796,2.132-0.796c0.423,1.068,0.157,1.857,0.077,2.054c0.497,0.542,0.798,1.235,0.798,2.082 c0,2.981-1.814,3.637-3.543,3.829c0.279,0.24,0.527,0.713,0.527,1.437c0,1.037-0.01,1.874-0.01,2.129 c0,0.208,0.14,0.449,0.534,0.373c3.081-1.028,5.302-3.935,5.302-7.362C15.76,3.906,12.285,0.431,7.999,0.431z"/></svg>
+</span><span class="username">kuuurttyy</span></a>
+
+            </li>
+             
+            <li>
+                <a href="https://twitter.com/kuuurttyy" target="_blank"><span class="icon icon--twitter"><svg viewBox="0 0 16 16"><path fill="#828282" d="M15.969,3.058c-0.586,0.26-1.217,0.436-1.878,0.515c0.675-0.405,1.194-1.045,1.438-1.809c-0.632,0.375-1.332,0.647-2.076,0.793c-0.596-0.636-1.446-1.033-2.387-1.033c-1.806,0-3.27,1.464-3.27,3.27 c0,0.256,0.029,0.506,0.085,0.745C5.163,5.404,2.753,4.102,1.14,2.124C0.859,2.607,0.698,3.168,0.698,3.767 c0,1.134,0.577,2.135,1.455,2.722C1.616,6.472,1.112,6.325,0.671,6.08c0,0.014,0,0.027,0,0.041c0,1.584,1.127,2.906,2.623,3.206 C3.02,9.402,2.731,9.442,2.433,9.442c-0.211,0-0.416-0.021-0.615-0.059c0.416,1.299,1.624,2.245,3.055,2.271 c-1.119,0.877-2.529,1.4-4.061,1.4c-0.264,0-0.524-0.015-0.78-0.046c1.447,0.928,3.166,1.469,5.013,1.469 c6.015,0,9.304-4.983,9.304-9.304c0-0.142-0.003-0.283-0.009-0.423C14.976,4.29,15.531,3.714,15.969,3.058z"/></svg>
+</span><span class="username">kuuurttyy</span></a>
+
+            </li>
+            
+        </ul>
+        <p class="footer-name">Kurt Stubbings 2017</p>
+    </div>
+</footer>
+    
+    <div class="overlay-nav">
+    <nav>
+        <ul>
+            <li class="nav-link"><a href="/">Home</a></li>
+            <li class="nav-link"><a href="/#about">About</a></li>
+            <li class="nav-link"><a href="/projects/">Work</a></li>
+            <li class="nav-link"><a href="/#contact">Contact</a></li>
+            <li class="nav-link"><a href="/blog/">Blog</a></li>
+        </ul>
+    </nav>
+</div>
+    
+    <script type="text/javascript" src="/js/main.js"></script>   
+    <script type="text/javascript" src="/js/wow.min.js"></script> 
+    
+    <script>
+        var wow = new WOW({
+            boxClass: 'wow'
+        });
+        wow.init(); 
+    </script>
+        
+
+  </body>
+
+</html>

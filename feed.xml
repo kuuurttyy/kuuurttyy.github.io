@@ -6,9 +6,83 @@
 </description>
     <link>http://kurtstubbings.com/</link>
     <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Sun, 11 Jun 2017 10:52:54 +0100</pubDate>
-    <lastBuildDate>Sun, 11 Jun 2017 10:52:54 +0100</lastBuildDate>
+    <pubDate>Tue, 13 Jun 2017 11:23:53 +0100</pubDate>
+    <lastBuildDate>Tue, 13 Jun 2017 11:23:53 +0100</lastBuildDate>
     <generator>Jekyll v3.4.3</generator>
+    
+      <item>
+        <title>Glitch Style Refinement</title>
+        <description>&lt;p&gt;After recieving some feedback on my previous tests and coming up with a few more techniques to try, I went back to resume testing! Again, the notes below are mostly for my reference but feel free to read them.&lt;/p&gt;
+
+&lt;div class=&quot;embed-container&quot;&gt;&lt;iframe src=&quot;https://www.youtube.com/embed/YJMt1AlAjQQ&quot; frameborder=&quot;0&quot; allowfullscreen=&quot;&quot;&gt;&lt;/iframe&gt;&lt;/div&gt;
+
+&lt;p&gt;Style 7 - Bigger displacement.&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This style is a development from style 3 which disables the small glitches and makes the large displacement glitches even bigger. I kept them quite infrequent and made them even slower as was suggested. The higher degree of displacement works better I feel, however I think some of the glitches are too slow, they seem almost too permanent to be glitches. It doesn’t really have the same psychological effect as a real glitch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 7.5 - Displacement with occasional colour&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;A variation of style 7 which uses small glitches for the majority, but had a 25% chance of displaying a large glitch which will introduce colour. It is still slower, but perhaps slightly more varied. Very similar to style 7, the colour glitches are quite infrequent but they not really impactful enough.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 8 - Feedback loop&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;I found a way to create a feedback loop with layers so that there is constant iteration of effects being applied over and over resulting in some really glitchy results. I used this effect alongside the Glitch FBO and a zooming effect, triggering both randomly and independantly. The zoom effect is controlled by audio analysis to determine how much to zoom. I definitely think using the FBO effect is important for making something which actually looks glitched. It adds a lot more depth, chaos and complexity to the projection which is missing from the standard After Effects renders. Also being able to trigger it on and off dynamically is a huge bonus. The feedback zooming loop is also quite interesting actually as the zooming in and out dynamically creates a greater sense of depth to the models, emphasising their 3D-ness.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 9 - Glitch plus me&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is based on feedback from my tutor to use the human figure more holistically. This style has an image of me mapped onto each of them which appears behind the glitchy sculpture so that when the sculpture glitches I appear, how lovely. The result was quite interesting, and definitely made them feel more like people. The glitching and shifting fragments revealed a hidden side of the sculpture - as they were modelled on my form. This version could do with more glitch.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 9.5 - Glitch plus me + Glitch FBO&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;As the title suggests, the Glitch FBO effect is back. This time it is definitely more effective with its glitchiness. Couple of things worth noting though. The FBO effect often causes the layer to not be displaying fully, therefore when i’m revealed I don’t display all the time either. It might be worth separating me into a separate layer and exploring that. Also with the FBO effect added, I need to consider the frequency of me appearing. I want to to be frequent enough that people notice it and understand it, but not so frequent that it becomes mundane and undermines what the glitch is about.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 10 - Glitch plus me glitching&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Similar to style 9 but this time I’m also glitching occasionally when revealed. This is definitely an improvement on style 9 as it adds more dynacism to the underlying me, makes it more interesting and revealing I think.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 10.5 Glitch plus me glitching + Chaos&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Adding the feedback glitches from Style 8 to this really spiced it up. It has a fantastic balance between calm and chaos while still occasionally reveling what lies underneath. I like this one as it is less obvious that the person appears as sometimes the glitches take it beyond reality. The models go through a variety of forms, from static sculpture to slightly distorted, revealing the human form underneath to pure digital, colourful chaos which may have brief glimpeses of the human form. Its as if one level of glitch reveals whats underlying on the first layer, then it goes deeper, too deep beyind our representations of the world.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 11 - Separated glitch layers&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;This is a continuation of the previous styles but the images of me are in an independant layer so the effects can be controlled differently. The Kurt layer is just using displacement glitches so It doesn’t end up too distorted but there is still a degree of distortion. The sculpture layer has a mixture of glitches with Glitch FBO effect included occasionally to add some spice. I think having me on a separate layer is a definite improvement as i’m more persistantly underneath when revealed by the FBO effect.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;p&gt;Style 11.5 - Separated layers + feedback&lt;/p&gt;
+&lt;ul&gt;
+  &lt;li&gt;Again using the wonderful feedback effect with the zooming on top of style 11 to add more glitch. This effect I think adds more ‘spectacle’ rather than psychological depth but it sure does look cool. I found this style one that I could look at for longer as it was far more interesting to watch because there was more happening.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;hr /&gt;
+
+&lt;h1 id=&quot;general-comments-from-myself&quot;&gt;General comments from myself&lt;/h1&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;I quite like the simple displacement effects with no added colour, especially how they disregard the existing blocky form and break in other places, not just where the distinct blocks are.&lt;/li&gt;
+  &lt;li&gt;If I go with the option of including fully body images of myself, I will need to take more consideration of what clothes I wear and facial expression I have to make it more meaningful. I would also line it up better but as this was for a test it didn’t seem worth the hassle. Perhaps I could also have different outfits or expressions which change… who knows.&lt;/li&gt;
+  &lt;li&gt;My current struggle is to find a balance between pretty pictures and considering the actual psychological effect of glitch art. Currently I’ve been focused on pretty pictures and just creating a chaotic, colourful spectacle. As much as I love this, my supervisor has a valid point that I need to further consider the artistic value of what I create. This more challenging for me as I am very technology focused. I’m more interested in the tools and how theyre used rather than deeper meaning within the work.&lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h1 id=&quot;feedback&quot;&gt;Feedback&lt;/h1&gt;
+
+&lt;p&gt;Coming soon.&lt;/p&gt;
+</description>
+        <pubDate>Sun, 11 Jun 2017 00:00:00 +0100</pubDate>
+        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/11/glitch-style-refinement/</link>
+        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/11/glitch-style-refinement/</guid>
+        
+        
+        <category>Graduate Project</category>
+        
+      </item>
     
       <item>
         <title>Another Day, Another Glitch</title>
@@ -89,6 +163,50 @@
       &lt;li&gt;This could be done by making the displacement values higher.&lt;/li&gt;
     &lt;/ul&gt;
   &lt;/li&gt;
+  &lt;li&gt;Style 6 works really well becuase of the colours and the faces&lt;/li&gt;
+  &lt;li&gt;Style 3 is also interesting due to the simplicity, makes it seem more ‘real’ as pieces of the sculptures are removed&lt;/li&gt;
+  &lt;li&gt;Perhaps try mixing style 3 with style 6 to get a good balance of both - Add long pauses of cut outs like in style 3
+    &lt;ul&gt;
+      &lt;li&gt;I will definitely try something like this, I can slow down the glitches even further to enhance the effect&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The first few styles are better as when it gets too flashy it can be hard to focus on whats going on
+    &lt;ul&gt;
+      &lt;li&gt;This is an interesting comment as most other people prefer the chaotic ones. I think it would be good to include a variety of styles in my presets ranging from mildly glitchy up to crazy glitchy chaos.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+&lt;/ul&gt;
+
+&lt;h2 id=&quot;tutors-comments&quot;&gt;Tutor’s comments&lt;/h2&gt;
+
+&lt;ul&gt;
+  &lt;li&gt;Glitch happens when the illusion of reality breaks down by an electronic disturbance that wakes the viewer up and reminds them that they are looking not at reality but a “construct”.&lt;/li&gt;
+  &lt;li&gt;What you have at the moment is not really doing that. It is more decorative than disturbing and that’s a problem.. I think that you might need to shoot some video which is closer to the structures themselves and then create animations in which they unravel, split open or rupture or are disturbed in some way that momentarily undermines or opens up their structural integrity.
+    &lt;ul&gt;
+      &lt;li&gt;I agree with this point. I have gotten a bit carried away with creating ‘glitch spectacle’ focusing on finding something which looks cool rather than considering the deeper meaning. As for creating certain animations, I will definitely give it a go (its on my to-do list in fact!). Its worth noting however that I am somewhat limited in the complexity of animations I can create as when I relocate to the exhibition space next Monday and set everything up, I’ll have to recreate all of the content again which there may not be enough time for more complicated effects. This is why I’ve been exploring a few of the real-time effects I can use so they can be changed and played with on the fly.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;The actual figures are configured in a rather flat way. They need to operate against each other somehow operating more in space.
+    &lt;ul&gt;
+      &lt;li&gt;My current placement for the sculptures and projectors is to try and take up as little space as possible so I can be considerate in the actual exhibition. I agree with you that there should be more depth and they could do with being spaced apart a little more. I’m currently using a layout which has a smallish footprint and I can project onto the most surfaces. Once we’re into the exhibition space I’ll be able to see how much I can spread and and better determine where exactly each model goes for optimal effect.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Your background in the exhibition space will be important. It should obviously be black or white but maybe work with panels operating at different angles.
+    &lt;ul&gt;
+      &lt;li&gt;This is something that depends on my placement in the exhibition space, so i’ll cross that bridge when i can. Admittedly in my current testing space it’s not ideal having a sofa behind the models!&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Currently when you do include a body part it is just a face you should maybe work with more holistically with the human form.
+    &lt;ul&gt;
+      &lt;li&gt;It is currently just a face as I had the idea of doing live face tracking for it so that members of the audience will become part of the work. I’ve written a Processing sketch that will detect up to three faces and can display them, one on each model (faces are used multiple times if there are less of them).&lt;/li&gt;
+      &lt;li&gt;I have an idea which I will attempt today. I’m going to get someone to take some pictures of me which I can line up on each of the models so that they could ‘glitch’ into placement occasionally - hopefully I can do this.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
+  &lt;li&gt;Maybe you need to re-visit some of your earlier experiments from last semester with the classical bust
+    &lt;ul&gt;
+      &lt;li&gt;I think what worked really well with the classical bust is that firstly its far more realistic than my models, so the glitchy aesthetic seems more out of place. It might also be due to the classical bust being more recognisable, more iconic, something that you really wouldn’t expect to be glitching as you’re already familiar with it.&lt;/li&gt;
+    &lt;/ul&gt;
+  &lt;/li&gt;
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 10 Jun 2017 00:00:00 +0100</pubDate>
@@ -104,7 +222,9 @@
         <title>Bringing The Family Together</title>
         <description>&lt;p&gt;After many weeks of waiting, I am finally able to test the project fully with all three models together. I now have the opertinity to try out different layouts and styles to see how the final project will look.&lt;/p&gt;
 
-&lt;p&gt;Step one involved chosing an arrangement for three models and the 2 projectors. The goal was to get the best coverage on the models but taking up the least space as I need to be considerate of other people’s projects at the show. I am hoping that I’ll be able to use a corner at the exhibiton as it will block off 2 possible directions people could come from. At the moment I have the sitting and standing models staggered at the back and the lying model in front of them. HOW FAR ARE PROJECTORS?&lt;/p&gt;
+&lt;p&gt;Step one involved chosing an arrangement for three models and the 2 projectors. The goal was to get the best coverage on the models but taking up the least space as I need to be considerate of other people’s projects at the show. I am hoping that I’ll be able to use a corner at the exhibiton as it will block off 2 possible directions people could come from. At the moment I have the sitting and standing models staggered at the back and the lying model in front of them. The distance between and taken up by the models and projects is quite large, but I’m hoping this isn’t an issue in the exhibition space.&lt;/p&gt;
+
+&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/06/space-1.jpg&quot; alt=&quot;The space&quot; /&gt;&lt;/p&gt;
 
 &lt;p&gt;If the exhibiton space allows I’d like to spread it out a bit more, so that it isn’t so compressed but I’ll find out if I can do this in a week or so. I also need to be conscious that the sitting and standing models are using the same projector so they can’t be too far from each other or at too different depths or the projections wont be in focus.&lt;/p&gt;
 
@@ -387,29 +507,6 @@
         <pubDate>Mon, 20 Mar 2017 00:00:00 +0000</pubDate>
         <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/20/progress-update/</link>
         <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/20/progress-update/</guid>
-        
-        
-        <category>Graduate Project</category>
-        
-      </item>
-    
-      <item>
-        <title>The Uncanny</title>
-        <description>&lt;p&gt;This is a continuation of the thoughts at the end of the &lt;a href=&quot;/blog/graduate%20project/2017/03/11/mini-models/&quot;&gt;previous post&lt;/a&gt; on the uncanny as a concept for my project.&lt;/p&gt;
-
-&lt;p&gt;Upon further reading and thinking, it becomes clear that the uncanny relies on personal experience, so is not clearly definable. So as I see my project as being uncanny, it doesn’t mean that others will see it in this way - but I suppose its impossible to cater for everyone.&lt;/p&gt;
-
-&lt;p&gt;Freud and Jentsch both argue that the animation of inanimate objects is uncanny, and occurs when the boundary between animate and inanimate objects becomes confused. For example when objects imitate life, blurring the cultural, psychological and material boundaries between life and death. This explains the uncanniness of zombies and ghosts. But I don’t believe that it had to be about life and death, it can be blurring different boundaries, say physical and digital? Real and simulated? I suppose this is why humanoid robots are quite uncanny (You know the creepy Japanese ones with skin and terrifying expressions). All of this leads back to my idea of glitchy sculptures being uncanny. The glitch brings the calm, motionless sculptures to life in a very chaotic and confusing fashion. It blurs the boundaries between digital and physical media and makes us question the reality of what is before us. On a deeper level, as previously mentioned, it blurs the boundary between the real and simulated in how the sculpture is &lt;em&gt;appearing to&lt;/em&gt; glitch, but also in the fact that the glitches themselves are simulated (but the audience shouldn’t know this).&lt;/p&gt;
-
-&lt;p&gt;I stumbled across some somewhat similar work by New Media artist, &lt;a href=&quot;http://www.hellocatfood.com/uncanny-valley/, Uncanny Valley&quot;&gt;Antonio Roberts&lt;/a&gt; which he did as part of the &lt;a href=&quot;http://inhabitingthehack.github.io/&quot;&gt;Uncanny Valley event&lt;/a&gt; in 2015. In short, his work involved projecting glitch art onto natural objects, exploring the interaction between the projection and the uneven surfaces. What I find the most interesting about this is the vibrant, digital looking colours contrasted with the natural forms and textures. It raises questions about the nature of and interaction between the physical and digital, which can be quite uncanny and uncomfortable. I’ve included a couple of photos taken from Roberts’ Flickr from the event, so credit goes to him for those.&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/roberts1.jpg&quot; alt=&quot;Uncanny Valley&quot; /&gt;&lt;/p&gt;
-
-&lt;p&gt;&lt;img src=&quot;/assets/blog/2017/03/roberts2.jpg&quot; alt=&quot;Uncanny Valley&quot; /&gt;&lt;/p&gt;
-</description>
-        <pubDate>Sun, 12 Mar 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/12/the-uncanny/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/12/the-uncanny/</guid>
         
         
         <category>Graduate Project</category>
