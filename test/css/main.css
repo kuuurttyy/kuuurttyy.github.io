@@ -1,3 +1,37 @@
+@charset "UTF-8";
+/**
+ * @license
+ * MyFonts Webfont Build ID 3449741, 2017-09-11T09:04:49-0400
+ * 
+ * The fonts listed in this notice are subject to the End User License
+ * Agreement(s) entered into by the website owner. All other parties are 
+ * explicitly restricted from using the Licensed Webfonts(s).
+ * 
+ * You may obtain a valid license at the URLs below.
+ * 
+ * Webfont: Nexa-Bold by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/bold/
+ * 
+ * Webfont: Nexa-Regular by Fontfabric
+ * URL: https://www.myfonts.com/fonts/font-fabric/nexa/regular/
+ * 
+ * 
+ * License: https://www.myfonts.com/viewlicense?type=web&buildid=3449741
+ * Licensed pageviews: 10,000
+ * Webfonts copyright: Copyright \(c\) 2012 by Svet Simov. All rights reserved.
+ * 
+ * © 2017 MyFonts Inc
+*/
+/* @import must be at top of file, otherwise CSS will not work */
+@import url("//hello.myfonts.net/count/34a38d");
+@font-face {
+  font-family: 'Nexa-Bold';
+  src: url("webfonts/34A38D_0_0.eot");
+  src: url("webfonts/34A38D_0_0.eot?#iefix") format("embedded-opentype"), url("webfonts/34A38D_0_0.woff2") format("woff2"), url("webfonts/34A38D_0_0.woff") format("woff"), url("webfonts/34A38D_0_0.ttf") format("truetype"); }
+@font-face {
+  font-family: 'Nexa-Regular';
+  src: url("webfonts/34A38D_1_0.eot");
+  src: url("webfonts/34A38D_1_0.eot?#iefix") format("embedded-opentype"), url("webfonts/34A38D_1_0.woff2") format("woff2"), url("webfonts/34A38D_1_0.woff") format("woff"), url("webfonts/34A38D_1_0.ttf") format("truetype"); }
 /*! normalize.css v3.0.2 | MIT License | git.io/normalize */
 html {
   font-family: sans-serif;
@@ -146,25 +180,14 @@ td, th {
 html,
 body {
   min-height: 100%;
-  background: #ffc70a;
-  /* W3C, IE10+, FF16+, Chrome26+, Opera12+, Safari7+ */
-  filter: progid:DXImageTransform.Microsoft.gradient( startColorstr='#ffd23d', endColorstr='#ffc70a', GradientType=0);
-  background-size: cover;
-  background-repeat: no-repeat;
+  background: #0a0909;
   /* IE6-9 */
-  color: #0a0909;
-  font-family: 'Helvetica Neue', Helvetica, Arial, sans-serif;
-  font-size: 18px;
-  letter-spacing: -0.5px; }
+  color: #fff;
+  font-family: 'Nexa-Bold', 'Helvetica Neue', Helvetica, Arial, sans-serif;
+  font-size: 18px; }
 
 body {
-  background: #ffd23d;
-  /* Old browsers */
-  background: -moz-linear-gradient(top, #ffd23d 0%, #ffc70a 100%);
-  /* FF3.6-15 */
-  background: -webkit-linear-gradient(top, #ffd23d 0%, #ffc70a 100%);
-  /* Chrome10-25,Safari5.1-6 */
-  background: linear-gradient(to bottom, #ffd23d 0%, #ffc70a 100%); }
+  background: #0a0909; }
 
 body.centered {
   height: 100%;
@@ -198,10 +221,81 @@ img {
   max-width: 100%; }
 
 form {
-  max-width: 325px; }
+  font-family: 'Nexa-Regular', 'Helvetica Neue', Helvetica, Arial, sans-serif; }
   @media screen and (max-width: 1024px) {
     form {
       max-width: 100%; } }
+  form .colours ul {
+    list-style: none;
+    margin: 0 0 1em;
+    padding: 0; }
+    form .colours ul::after {
+      content: "";
+      clear: both;
+      display: table; }
+    form .colours ul li {
+      display: inline-block;
+      width: 50%;
+      float: left; }
+      form .colours ul li input[type="checkbox"] {
+        margin-right: 10px;
+        margin-bottom: 0.5em;
+        outline: 0; }
+        form .colours ul li input[type="checkbox"]:focus {
+          outline: 0; }
+      form .colours ul li.house .checkbox::after {
+        background: #e5e811; }
+      form .colours ul li.dubstep .checkbox::after {
+        background: #27a8bb; }
+      form .colours ul li.trap .checkbox::after {
+        background: #65d71d; }
+      form .colours ul li.edm .checkbox::after {
+        background: #d0d0d0; }
+      form .colours ul li.dnb .checkbox::after {
+        background: #f71977; }
+      form .colours ul li.indie .checkbox::after {
+        background: #fc983b; }
+      form .colours ul li.drumstep .checkbox::after {
+        background: #e20b0b; }
+  form .colours p {
+    margin-bottom: 0.5em; }
+
+.label--checkbox {
+  position: relative;
+  cursor: pointer; }
+
+.checkbox {
+  position: relative;
+  margin: 0 1em 0 0;
+  cursor: pointer;
+  outline: none; }
+  .checkbox:before {
+    transition: all .2s ease-in-out;
+    content: "";
+    position: absolute;
+    left: 0;
+    z-index: 1;
+    width: 15px;
+    height: 15px;
+    border: 2px solid transparent;
+    top: -3px; }
+  .checkbox:checked:before {
+    transform: rotate(-45deg);
+    height: 8px;
+    width: 17px;
+    border-color: #0a0909;
+    border-top-style: none;
+    border-right-style: none; }
+  .checkbox:after {
+    content: "";
+    position: absolute;
+    left: 0;
+    width: 19px;
+    height: 19px;
+    background: #fff;
+    cursor: pointer;
+    top: -3px;
+    border-radius: 3px; }
 
 input[type="text"],
 input[type="email"],
@@ -286,16 +380,6 @@ select {
   .error-msg.visible {
     display: block; }
 
-.success {
-  padding: 0.5em;
-  background: #00d86f;
-  margin-top: -0.5em;
-  border: 3px solid #00bf62;
-  margin-bottom: 0.5em;
-  font-size: 0.9em; }
-  .success.visible {
-    display: block; }
-
 .hidden {
   display: none !important; }
 
@@ -327,6 +411,10 @@ h3 {
 h1 {
   font-size: 2.37em;
   letter-spacing: -1px; }
+  h1.huge {
+    font-size: 8em;
+    margin-top: 0;
+    font-style: italic; }
 
 h2 {
   margin-top: 0;
@@ -334,13 +422,10 @@ h2 {
   margin-bottom: 2em; }
 
 h3 {
-  font-size: 1.2em;
+  font-size: 2em;
   margin-bottom: 0.2em;
   margin-top: 0em;
   font-style: italic; }
-
-.success p {
-  margin: 0; }
 
 .chevron::before {
   border-style: solid;
@@ -364,9 +449,8 @@ h3 {
   display: inline-block;
   border: none;
   color: rgba(10, 9, 9, 0.8);
-  background: #00d86f;
+  background: #03dabf;
   text-transform: uppercase;
-  border-radius: 0.25em;
   padding: 0.75em 1.5em;
   box-shadow: 0 4px 6px rgba(50, 50, 93, 0.11), 0 1px 3px rgba(0, 0, 0, 0.08);
   margin: 0.75em 0;
@@ -397,10 +481,11 @@ h3 {
     font-size: 1.2em; }
   .btn.outline {
     background: transparent;
-    border: 2px solid #756a6a; }
+    border: 2px solid #756a6a;
+    color: #fff; }
     .btn.outline:hover {
-      border-color: #403939;
-      background: #403939;
+      border-color: #8f8383;
+      background: #8f8383;
       color: #fff;
       text-shadow: none !important; }
 
@@ -408,37 +493,58 @@ h3 {
   padding: 0.75em;
   background: #5995ED; }
 
-.share .small {
-  font-weight: bold; }
-.share ul {
-  list-style: none;
-  margin: 0 0 1em;
-  padding: 0; }
-.share li {
-  display: inline-block;
-  margin-right: 1em; }
-  .share li span {
-    display: inline-block; }
-  .share li a:hover {
-    text-decoration: none; }
-    .share li a:hover span {
-      text-decoration: underline; }
-  .share li .icon {
-    width: 25px;
-    position: relative;
-    top: 5px; }
-    .share li .icon path {
-      transition: all 0.2s; }
-  .share li:hover span {
-    text-decoration: underline; }
-  .share li:hover .icon {
-    width: 25px; }
-    .share li:hover .icon path {
-      fill: #0a0909; }
-    .share li:hover .icon.whatsapp path {
-      fill: #25d366; }
-    .share li:hover .icon.twitter path {
-      fill: #1da1f2; }
+.success {
+  margin-top: 1em;
+  margin-bottom: 0.5em;
+  font-size: 0.9em;
+  color: #fff; }
+  .success.visible {
+    display: block; }
+  .success p {
+    margin: 0; }
+  .success h3 {
+    display: inline-block;
+    background-repeat: repeat-x;
+    background-position: 0 100%;
+    background-size: 100% 6px;
+    line-height: 1.5;
+    background-image: linear-gradient(to left, #00d86f 0%, #00a555 100%); }
+
+.share {
+  margin-top: 1em;
+  margin-bottom: 1em; }
+  .share .small {
+    font-weight: bold; }
+  .share .btn {
+    color: #fff;
+    letter-spacing: 0.5px; }
+    .share .btn.whatsapp {
+      background: #25d366; }
+    .share .btn.twitter {
+      background: #1da1f2; }
+    .share .btn span {
+      font-size: 1em; }
+  .share ul {
+    list-style: none;
+    margin: 0;
+    padding: 0; }
+  .share li {
+    display: inline-block;
+    margin-right: 1em; }
+    .share li span {
+      display: inline-block;
+      position: relative;
+      top: -4px;
+      color: white; }
+    .share li a:hover {
+      text-decoration: none; }
+    .share li .icon {
+      width: 20px; }
+      .share li .icon path {
+        fill: white;
+        transition: all 0.2s; }
+    .share li:hover span {
+      text-decoration: none; }
 
 footer {
   max-width: 1200px;
@@ -451,7 +557,7 @@ footer {
   bottom: 0;
   right: 0;
   left: 0;
-  color: rgba(10, 9, 9, 0.7);
+  color: rgba(255, 255, 255, 0.7);
   padding-bottom: 1em;
   letter-spacing: 0px; }
   footer ul {
@@ -460,19 +566,31 @@ footer {
     padding: 0; }
     footer ul li {
       display: inline-block;
-      color: rgba(10, 9, 9, 0.8); }
+      color: rgba(255, 255, 255, 0.7); }
       footer ul li::after {
         content: "\2022";
         padding: 0 10px;
-        color: rgba(10, 9, 9, 0.5); }
+        color: rgba(255, 255, 255, 0.7); }
       footer ul li:last-of-type::after {
         content: ""; }
       footer ul li a {
-        color: rgba(10, 9, 9, 0.7); }
+        color: rgba(255, 255, 255, 0.7); }
   @media screen and (max-width: 1024px) {
     footer {
       position: relative;
       margin-top: 3em;
       max-width: 500px; } }
+
+/* 404 specific */
+@keyframes slide {
+  0% {
+    background-position-x: 0%; }
+  100% {
+    background-position-x: 600vw; } }
+body.e404 {
+  background: repeating-linear-gradient(-45deg, #24c7b1 0%, #eff287 8.333%, #ffbca6 16.666%, #ff9bca 24.9999%, #ab92e1 33.3333%, #24c7b1 50%);
+  background-size: 600vw 600vw;
+  -webkit-animation: 'slide' 15s infinite linear forwards;
+  color: #0a0909; }
 
 /*# sourceMappingURL=main.css.map */
