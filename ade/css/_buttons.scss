@@ -1,0 +1,97 @@
+.btn {
+    display: inline-block;
+    // border: 2px solid $border-color;
+    border-radius: 0.25em;
+    padding: 1rem 1.5rem;
+    font-family: $header-font;
+    letter-spacing: 0.05rem;
+    text-transform: uppercase;
+    color: $white;
+    font-size: 1.5em;
+    margin-right: 0.5em;
+    margin-top: 1rem;
+    margin-bottom: 1rem;
+    background: $black;
+    border: none;
+    cursor: pointer;
+    @media screen and (max-width: $medium) {
+        font-size: 1.2em;
+    }
+
+    &:last-of-type {
+        margin-right: 0;
+    }
+    position: relative;
+    z-index: 2;
+    overflow: hidden;
+    -webkit-transition: all 0.3s;
+    -moz-transition: all 0.3s;
+    transition: all 0.3s;
+    margin-bottom: 1em;
+
+    &::after {
+        content: "";
+        width: 0;
+        height: 103%;
+        top: 50%;
+        left: 50%;
+        background: $white;
+        opacity: 0;
+        -webkit-transform: translateX(-50%) translateY(-50%);
+        -moz-transform: translateX(-50%) translateY(-50%);
+        -ms-transform: translateX(-50%) translateY(-50%);
+        transform: translateX(-50%) translateY(-50%);
+        position: absolute;
+        z-index: -1;
+        -webkit-transition: all 0.3s;
+        -moz-transition: all 0.3s;
+        transition: all 0.3s;
+    }
+
+    &:active,
+    &:hover {
+        color: $black;
+        outline: none;
+        text-shadow: none !important;
+        text-decoration: none;
+
+        &::after {
+            width: 101%;
+            opacity: 1;
+        }
+    }
+}
+
+.button-container {
+    // display: inline-block;
+    position: relative;
+
+    &::after,
+    &::before {
+        content: "";
+        border-top: 1px solid $black;
+        height: 1px;
+        width: 150%;
+        position: absolute;
+        top: calc(50% - 0.2em);
+        transform: translateY(-50%);
+    }
+    &::before {
+        left: -170%;
+    }
+    &::after {
+        right: -170%;
+    }
+    @media screen and (max-width: $xsmall) {
+        &::after,
+        &::before {
+            width: 100%;
+        }
+        &::before {
+            left: -120%;
+        }
+        &::after {
+            right: -120%;
+        }
+    }
+}
