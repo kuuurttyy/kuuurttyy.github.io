@@ -153,6 +153,8 @@
 
             $(function() {
                 $("#rsvp").on('click', function() {
+                    document.cookie = "MCPopupClosed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
+                    document.cookie = "MCPopupSubscribed=; expires=Thu, 01 Jan 1970 00:00:00 UTC";
                     showMailingPopUp();
                 });
             });
