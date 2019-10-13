@@ -4,11 +4,11 @@
     <title>Kurt Stubbings</title>
     <description>This is the portfolio website of Kurt Stubbings, a Digital Media Design  student at Bournemouth University. Avaliable to hire for work!
 </description>
-    <link>http://kurtstubbings.com/</link>
-    <atom:link href="http://kurtstubbings.com/feed.xml" rel="self" type="application/rss+xml"/>
-    <pubDate>Mon, 10 Sep 2018 17:35:37 +0100</pubDate>
-    <lastBuildDate>Mon, 10 Sep 2018 17:35:37 +0100</lastBuildDate>
-    <generator>Jekyll v3.8.3</generator>
+    <link>http://localhost:4000/</link>
+    <atom:link href="http://localhost:4000/feed.xml" rel="self" type="application/rss+xml"/>
+    <pubDate>Sun, 13 Oct 2019 17:58:14 +0100</pubDate>
+    <lastBuildDate>Sun, 13 Oct 2019 17:58:14 +0100</lastBuildDate>
+    <generator>Jekyll v4.0.0</generator>
     
       <item>
         <title>Finer Still</title>
@@ -67,8 +67,8 @@
 &lt;p&gt;Coming soon.&lt;/p&gt;
 </description>
         <pubDate>Tue, 13 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/13/finer-still/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/13/finer-still/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/06/13/finer-still/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/06/13/finer-still/</guid>
         
         
         <category>Graduate Project</category>
@@ -145,8 +145,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 11 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/11/glitch-style-refinement/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/11/glitch-style-refinement/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/06/11/glitch-style-refinement/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/06/11/glitch-style-refinement/</guid>
         
         
         <category>Graduate Project</category>
@@ -279,8 +279,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sat, 10 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/10/another-day-another-glitch/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/10/another-day-another-glitch/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/06/10/another-day-another-glitch/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/06/10/another-day-another-glitch/</guid>
         
         
         <category>Graduate Project</category>
@@ -312,8 +312,8 @@
 &lt;p&gt;As there are so many different glitchy styles and aesthetics, my current plan is to create a series of loops which will cycle through and repeat throughout the exhibition. So instead of it being 5 hours straight of a single effect, I could create some 5 minute loops for example and play through them. I think this will make it more interesting for an extended period of time as there is more variation. The next step is to come up with the loops!&lt;/p&gt;
 </description>
         <pubDate>Fri, 09 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/09/bringing-the-family-together/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/09/bringing-the-family-together/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/06/09/bringing-the-family-together/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/06/09/bringing-the-family-together/</guid>
         
         
         <category>Graduate Project</category>
@@ -354,8 +354,8 @@
 &lt;p&gt;Tomorrow I’ll be able to test on all three models together for the first time. Up until this point there has been a singular focus with my projects as that’s all my flat would allow for. I am hoping that getting to work on the project as a whole and seeing all three models glitching together will inspire the next move. I’ve been having doubts for the past week as I haven’t seen much progression in my work and it has started to become mundane which is the last thing I want. With any luck, seeing the project as a whole will reignite my passion for it again and allow me to finish up and perfect it all in the final weeks before the deadline.&lt;/p&gt;
 </description>
         <pubDate>Thu, 08 Jun 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/06/08/random-thoughts/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/06/08/random-thoughts/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/06/08/random-thoughts/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/06/08/random-thoughts/</guid>
         
         
         <category>Graduate Project</category>
@@ -383,8 +383,8 @@
 &lt;p&gt;One of my biggest concerns is that the project will get boring to look at quickly. On one hand I consider how sculptures don’t do anything but people still find joy in those. I’m hoping that the random chaos of my project will be enough to draw in and maintain attention, especially as no two moments are the same. One glitch may be particularly beautiful but half a second later it’s gone, lost to the past never to be seen again. The audience will have to keep watching, keep hoping to catch more beautiful moment and savour them. This is quite different to the experience of a normal sculpture as the aesthetic appeal doesn’t change over time.&lt;/p&gt;
 </description>
         <pubDate>Mon, 29 May 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/05/29/projection-progress-part-two/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/05/29/projection-progress-part-two/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/05/29/projection-progress-part-two/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/05/29/projection-progress-part-two/</guid>
         
         
         <category>Graduate Project</category>
@@ -400,8 +400,8 @@
 &lt;p&gt;I found another free application called &lt;a href=&quot;http://techlife.sg/TCPSyphon/&quot;&gt;Syphon2NDI&lt;/a&gt; which allows you to share a syphon feed over a network. This will allow me to do the video mixing and rendering in VDMX on one laptop, syphon the output over a network and receive it on another machine which will map it to two projectors. With any luck, I’ll be able to borrow a mac from the uni which I can use to power the projectors while VDMX runs on my laptop.&lt;/p&gt;
 </description>
         <pubDate>Fri, 26 May 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/05/26/syphon-over-a-network/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/05/26/syphon-over-a-network/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/05/26/syphon-over-a-network/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/05/26/syphon-over-a-network/</guid>
         
         
         <category>Graduate Project</category>
@@ -423,8 +423,8 @@
 &lt;p&gt;From the begining, I’ve known that I wont be able to generate much, if any, of my content in advance. This is becuase every time I move a sculpture or a projector, the content doesn’t line up so it needs to be regenerated. However, for adding these body parts at least, I’ve created a preset in After Effects which will add certain expressions to a layer so that it will move as wanted. Each of the body parts has its position, scale, and rotation randomly changed each frame so that the result is purely chaotic. It changes the position between the bounds of the comp, the scale between 2 limits I can set (so it doesnt appear too big or small), and the rotation anywhere between 0 and 360 degrees. The result is chaotic and wonderful.&lt;/p&gt;
 </description>
         <pubDate>Thu, 18 May 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/05/18/projection-progress/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/05/18/projection-progress/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/05/18/projection-progress/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/05/18/projection-progress/</guid>
         
         
         <category>Graduate Project</category>
@@ -497,8 +497,8 @@
 &lt;/ul&gt;
 </description>
         <pubDate>Sun, 30 Apr 2017 00:00:00 +0100</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/04/30/finished-sculptures/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/04/30/finished-sculptures/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/04/30/finished-sculptures/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/04/30/finished-sculptures/</guid>
         
         
         <category>Graduate Project</category>
@@ -551,8 +551,8 @@
 
 </description>
         <pubDate>Sun, 26 Mar 2017 00:00:00 +0000</pubDate>
-        <link>http://kurtstubbings.com/blog/graduate%20project/2017/03/26/physical-works-begin/</link>
-        <guid isPermaLink="true">http://kurtstubbings.com/blog/graduate%20project/2017/03/26/physical-works-begin/</guid>
+        <link>http://localhost:4000/blog/graduate%20project/2017/03/26/physical-works-begin/</link>
+        <guid isPermaLink="true">http://localhost:4000/blog/graduate%20project/2017/03/26/physical-works-begin/</guid>
         
         
         <category>Graduate Project</category>
